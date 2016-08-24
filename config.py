@@ -1,5 +1,5 @@
 # settings for Postgres
-PGUSERNAME = 'username'
+PGUSERNAME = 'lx'
 PGPASSWORD = 'password'
 DBNAME = 'xyz'
 
