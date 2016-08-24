@@ -1,0 +1,350 @@
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded CodeSystem's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded ValueSet's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded DomainResource's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Parameters's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Resource's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Account's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded ActivityDefinition's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded AllergyIntolerance's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Appointment's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded AppointmentResponse's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded AuditEvent's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Basic's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Binary's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded BodySite's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Bundle's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded CarePlan's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded CareTeam's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Claim's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded ClaimResponse's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded ClinicalImpression's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Communication's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded CommunicationRequest's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded CompartmentDefinition's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Composition's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded ConceptMap's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Condition's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Conformance's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Consent's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Contract's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Coverage's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded DataElement's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded DecisionSupportServiceModule's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded DetectedIssue's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded Device's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded DeviceComponent's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded DeviceMetric's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded DeviceUseRequest's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded DeviceUseStatement's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded DiagnosticReport's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded DiagnosticRequest's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded DocumentManifest's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded DocumentReference's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded EligibilityRequest's profile 
+
+Wed, 24 Aug 2016 17:04:19 load_spec_STU3.py[line:310]: INFO Loaded EligibilityResponse's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Encounter's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Endpoint's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded EnrollmentRequest's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded EnrollmentResponse's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded EpisodeOfCare's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded ExpansionProfile's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded ExplanationOfBenefit's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded FamilyMemberHistory's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Flag's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Goal's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Group's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded GuidanceResponse's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded HealthcareService's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded ImagingManifest's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded ImagingStudy's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Immunization's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded ImmunizationRecommendation's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded ImplementationGuide's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Library's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Linkage's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded List's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Location's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Measure's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded MeasureReport's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Media's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Medication's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded MedicationAdministration's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded MedicationDispense's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded MedicationOrder's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded MedicationStatement's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded MessageHeader's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded NamingSystem's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded NutritionRequest's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Observation's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded OperationDefinition's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded OperationOutcome's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Organization's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Patient's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded PaymentNotice's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded PaymentReconciliation's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Person's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded PlanDefinition's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Practitioner's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded PractitionerRole's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Procedure's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded ProcedureRequest's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded ProcessRequest's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded ProcessResponse's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Provenance's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Questionnaire's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded QuestionnaireResponse's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded ReferralRequest's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded RelatedPerson's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded RiskAssessment's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Schedule's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded SearchParameter's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Sequence's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Slot's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Specimen's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded StructureDefinition's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded StructureMap's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Subscription's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Substance's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded SupplyDelivery's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded SupplyRequest's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded Task's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded TestScript's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded VisionPrescription's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsTranscriptReferenceSequenceId.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: TranscriptReferenceSequenceId 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsProteinReferenceSequenceId.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: ProteinReferenceSequenceId 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsDNASequenceVariant.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: DNASequenceVariant 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsDNAVariantId.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: DNAVariantId 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsDNASequenceVariantType.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: DNASequenceVariantType 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsAminoAcidChange.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: AminoAcidChange 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsAminoAcidChangeType.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: AminoAcidChangeType 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsGene.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: Gene 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsDNARegionName.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: DNARegionName 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsAlleleName.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: AlleleName 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsAllelicState.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: AllelicState 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsAllelicFrequency.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: AllelicFrequency 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsCopyNumberEvent.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: CopyNumberEvent 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsGenomicSourceClass.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: GenomicSourceClass 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsPhaseSet.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: PhaseSet 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsSequence.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: Sequence 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsInterpretation.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: Interpretation 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded observationforgenetics's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find DiagnosticReport-geneticsAssessedCondition.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: AssessedCondition 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find DiagnosticReport-geneticsFamilyMemberHistory.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: FamilyMemberHistory 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find DiagnosticReport-geneticsAnalysis.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: Analysis 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:164]: WARNING Unexpected Error at adding extension http://hl7.org/fhir/StructureDefinition/DiagnosticReport-geneticsAnalysis 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded reportforgenetics's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find diagnosticrequest-geneticsItem.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: Item 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:164]: WARNING Unexpected Error at adding extension http://hl7.org/fhir/StructureDefinition/diagnosticrequest-geneticsItem 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded orderforgenetics's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find hla-genotyping-resultsAlleleDatabase.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: AlleleDatabase 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find hla-genotyping-resultsGlstring.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: Glstring 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:164]: WARNING Unexpected Error at adding extension http://hl7.org/fhir/StructureDefinition/hla-genotyping-resultsGlstring 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find hla-genotyping-resultsHaploid.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: Haploid 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:164]: WARNING Unexpected Error at adding extension http://hl7.org/fhir/StructureDefinition/hla-genotyping-resultsHaploid 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:61]: INFO Cannot find hla-genotyping-resultsMethod.json, trying a case-lower one 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: Method 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded hlaresult's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: Parent 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:162]: INFO add a complex extension: http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:131]: INFO add extension: Observation 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:310]: INFO Loaded familymemberhistory-genetic's profile 
+
+Wed, 24 Aug 2016 17:04:20 load_spec_STU3.py[line:349]: INFO Finished Loading 
+
