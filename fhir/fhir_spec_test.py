@@ -70538,7 +70538,8 @@ REFERENCE_TYPES={
         "request": [
             "DiagnosticRequest", 
             "ProcedureRequest", 
-            "ReferralRequest"
+            "ReferralRequest", 
+            "orderforgenetics"
         ], 
         "AssessedCondition": [
             "Condition"
@@ -70797,7 +70798,8 @@ REFERENCE_TYPES={
         "basedOn": [
             "DiagnosticRequest", 
             "ReferralRequest", 
-            "CarePlan"
+            "CarePlan", 
+            "orderforgenetics"
         ], 
         "source": [
             "Patient", 
@@ -70972,7 +70974,8 @@ REFERENCE_TYPES={
             "ProcessRequest", 
             "ReferralRequest", 
             "SupplyRequest", 
-            "VisionPrescription"
+            "VisionPrescription", 
+            "orderforgenetics"
         ], 
         "investigations-item": [
             "Observation", 
@@ -71002,7 +71005,8 @@ REFERENCE_TYPES={
             "DiagnosticRequest", 
             "NutritionRequest", 
             "SupplyRequest", 
-            "Appointment"
+            "Appointment", 
+            "orderforgenetics"
         ], 
         "problem": [
             "Condition", 
@@ -71446,7 +71450,8 @@ REFERENCE_TYPES={
         "request": [
             "DiagnosticRequest", 
             "ProcedureRequest", 
-            "ReferralRequest"
+            "ReferralRequest", 
+            "orderforgenetics"
         ], 
         "imagingStudy": [
             "ImagingStudy", 
@@ -71526,7 +71531,8 @@ REFERENCE_TYPES={
             "ReferralRequest", 
             "CarePlan", 
             "DiagnosticRequest", 
-            "ProcedureRequest"
+            "ProcedureRequest", 
+            "orderforgenetics"
         ], 
         "context": [
             "Encounter", 
@@ -71878,7 +71884,8 @@ REFERENCE_TYPES={
             "ReferralRequest", 
             "CarePlan", 
             "DiagnosticRequest", 
-            "ProcedureRequest"
+            "ProcedureRequest", 
+            "orderforgenetics"
         ], 
         "context": [
             "Encounter", 
@@ -71928,7 +71935,8 @@ REFERENCE_TYPES={
             "CarePlan", 
             "DiagnosticRequest", 
             "ProcedureRequest", 
-            "ReferralRequest"
+            "ReferralRequest", 
+            "orderforgenetics"
         ], 
         "performer-actor": [
             "Practitioner", 
@@ -72043,7 +72051,8 @@ REFERENCE_TYPES={
         "request": [
             "DiagnosticRequest", 
             "ProcedureRequest", 
-            "ReferralRequest"
+            "ReferralRequest", 
+            "orderforgenetics"
         ], 
         "imagingStudy": [
             "ImagingStudy", 
@@ -72199,7 +72208,8 @@ REFERENCE_TYPES={
             "ProcessRequest", 
             "ReferralRequest", 
             "SupplyRequest", 
-            "VisionPrescription"
+            "VisionPrescription", 
+            "orderforgenetics"
         ], 
         "activity-detail-goal": [
             "Goal"
@@ -72388,7 +72398,8 @@ REFERENCE_TYPES={
         ], 
         "request": [
             "DiagnosticRequest", 
-            "ProcedureRequest"
+            "ProcedureRequest", 
+            "orderforgenetics"
         ], 
         "subject": [
             "Patient", 

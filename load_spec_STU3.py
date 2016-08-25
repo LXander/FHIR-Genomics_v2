@@ -290,20 +290,23 @@ def load_spec(spec_dir):
             }
         resource_names.append(name)
         reference_types[name] = resource_reference_types
+        print resource_reference_types,name
         if len(resource_reference_types) > 1:
             for item in resource_reference_types:
                 if item == 'name':
                     continue
-                if 'Observation' in resource_reference_types[item]:
+                print item
+                located_map = resource_reference_types[item]
+                if 'Observation' in located_map:
                     resource_reference_types[item] += ['observationforgenetics', 'consensus-sequence-block']
-                if 'DiagnosticReport' in resource_reference_types[item]:
+                if 'DiagnosticReport' in located_map:
                     resource_reference_types[item] += ['reportforgenetics', 'hlaresult']
-                if 'DiagnosticOrder' in resource_reference_types[item]:
+                if 'DiagnosticOrder' in located_map:
                     resource_reference_types[item] += ['orderforgenetics']
                 #TODO: GET Through which replaces the 'DiagnosticOrder'
-                #if 'DiagnosticRequest' in resource_reference_types[item]:
-                #    resource_reference_types[item] += ['orderforgenetics']
-                if 'FamilyMemberHistory' in resource_reference_types[item]:
+                if 'DiagnosticRequest' in located_map:
+                    resource_reference_types[item] += ['orderforgenetics']
+                if 'FamilyMemberHistory' in located_map:
                     resource_reference_types[item] += ['familymemberhistory-genetic']
 
         #print 'Loaded %s\'s profile' % name

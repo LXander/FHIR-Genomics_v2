@@ -239,11 +239,11 @@ def load_spec(spec_dir):
             }
         resource_names.append(name)
         reference_types[name] = resource_reference_types
+        print resource_reference_types, item
         if len(resource_reference_types) > 1:
             for item in resource_reference_types:
                 if item == 'name':
                     continue
-                #print resource_reference_types, item
                 if 'Observation' in resource_reference_types[item]:
                     resource_reference_types[item] += ['observationforgenetics', 'consensus-sequence-block']
                 if 'DiagnosticReport' in resource_reference_types[item]:
