@@ -97,7 +97,7 @@ def make_quantity_pred(param_data, param_val):
         val_preds = [
             SearchParam.comparator.in_('<', '<='),
             SearchParam.comparator.quantity < value]
-    elif '>' in comparison:
+    elif '>' in comparator:
         val_preds = [
             SearchParam.comparator.in_('>', '>='),
             SearchParam.comparator.quantity > value]
@@ -239,7 +239,7 @@ class QueryBuilder(object):
         # either way, we have to figure it out.
         modifier = param_data['modifier']
         possible_reference_types = REFERENCE_TYPES[resource_type][param_data['param']]
-
+        print possible_reference_types
         if (modifier is not None and modifier not in possible_reference_types) or (
             modifier is None and len(possible_reference_types) > 1):
             # either can't deduct type of the referenced resource
@@ -265,7 +265,7 @@ class QueryBuilder(object):
         else:
             pred = db.and_(SearchParam.referenced_id==param_val,
                             SearchParam.referenced_type==referenced_type)
-    
+
         return pred
 
 
@@ -309,11 +309,11 @@ class QueryBuilder(object):
             alts = param_val.split(',')
             preds = [pred_maker(param_data, alt) for alt in alts]
             pred = db.or_(*preds)
-    
         return db.and_(pred,
                        SearchParam.name==param,
                        SearchParam.param_type==possible_param_types[param],
-                       SearchParam.owner_id==self.owner_id)
+                       #SearchParam.owner_id==self.owner_id
+                      )
     
     def build_query(self, resource_type, params, id_only=False):
         '''
@@ -321,17 +321,20 @@ class QueryBuilder(object):
         
         If `id_only` is true, a SQL query that selects only `resource_id` will be returned
         '''
+
         query_args = [Resource.visible == True,
                       Resource.resource_type == resource_type,
-                      Resource.owner_id == self.owner_id]
-    
+                      #Resource.owner_id == self.owner_id or Resource.owner_id=='0'
+                     ]
         valid_search_params = SPECS[resource_type]['searchParams']
+
         make_pred = partial(self.make_pred_from_param,
                             resource_type,
-                            possible_param_types=valid_search_params) 
+                            possible_param_types=valid_search_params)
+
         predicates = [pred for pred in map(make_pred, iterdict(params))
                 if pred is not None]
-    
+        print params
         # customized coordinate search parameter
         if 'coordinate' in params and resource_type == 'Sequence':
             coords = params['coordinate'].split(',') 

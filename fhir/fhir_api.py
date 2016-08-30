@@ -29,7 +29,8 @@ def find_latest_resource(resource_type, resource_id, owner_id):
             .filter_by(
                 resource_type=resource_type,
                 resource_id=resource_id,
-                owner_id=owner_id)
+                #owner_id=owner_id
+                 )
             .order_by(Resource.version.desc())
             .first())
 
@@ -98,11 +99,11 @@ class FHIRBundle(object):
         self.data_format = request.format
         self.version_specific = version_specific
         self.update_time = datetime.now().isoformat()
-
         self.resources = query.\
                 limit(request.count).\
                 offset(request.offset).all()
         self.resource_count = query.count() 
+        #print self.resource_count
 
         if ttam_resource is not None:
             # 23andMe resource(s) are being requested here.
@@ -230,7 +231,8 @@ def handle_delete(request, resource_type, resource_id):
             .filter_by(
                 resource_type=resource_type,
                 resource_id=resource_id,
-                owner_id=request.authorizer.email)
+                #owner_id=request.authorizer.email
+                 )
             .order_by(Resource.version.desc())
             .first())
     response = resource.as_response(request)
@@ -264,12 +266,15 @@ def handle_search(request, resource_type):
     '''
     handle FHIR search operation
     '''
+    #print request.authorizer.email
     query_builder = QueryBuilder(request.authorizer)
     search_query = query_builder.build_query(resource_type, request.args)
     ttam_resource = None
     if (resource_type in ('Patient', 'Sequence') and
             g.ttam_client is not None):
         ttam_resource = resource_type
+    #print search_query
+    #print request
     resp_bundle = FHIRBundle(search_query, request, ttam_resource=ttam_resource)
     return resp_bundle.as_response()
 

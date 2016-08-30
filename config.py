@@ -11,6 +11,8 @@ APP_CONFIG = {
     #   DB_NAME),
     'SQLALCHEMY_DATABASE_URI': 'sqlite:///fhir.db',
 
+
+
     # drop your own 23andme API credentials here
     'TTAM_CONFIG': {
         'redirect_uri': 'http://localhost:5000/ttam/recv_redirect',

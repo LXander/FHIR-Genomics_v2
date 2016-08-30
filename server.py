@@ -1,12 +1,18 @@
 import subprocess
-from multiprocessing import cpu_count
 from argparse import ArgumentParser
-from fhir import create_app, db
-from config import APP_CONFIG, HOST
+from multiprocessing import cpu_count
+
+from config import APP_CONFIG,HOST
+from fhir import db,create_app
+
+
+
+
 # use this for WSGI server
 # e.g. `$ gunicorn server:app`
-app = create_app(APP_CONFIG)
 
+app = create_app(APP_CONFIG)
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=True
 
 def clear_db(app):
     '''
@@ -14,7 +20,8 @@ def clear_db(app):
     '''
     with app.app_context():
         db.drop_all()
-        db.create_all() 
+        db.create_all()
+
 
 if __name__ == '__main__':
     arg_parser = ArgumentParser()

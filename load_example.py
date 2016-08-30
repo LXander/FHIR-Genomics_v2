@@ -42,7 +42,7 @@ def rand_patient():
     gender = 'female' if random.random() < 0.5 else 'male'
     first_name = names.get_first_name(gender=gender)
     last_name = names.get_last_name()
-    full_name = '%s %s'% (first_name, last_name)
+    full_name = '%s %s' % (first_name, last_name)
     data = {
         'resourceType': 'Patient',
         'text': {
@@ -75,12 +75,12 @@ def rand_observations(patientId, index):
     observation = {
         'resourceType': 'observationforgenetics',
 
-        'category': {'text': 'Laboratory',
+        'category': [{'text': 'Laboratory',
                      'coding': [{
                                 'system': "http://hl7.org/fhir/ValueSet/observation-category",
                                 'code': "laboratory"
                                 }]
-                     },
+                     }],
         'code': {'text': text,
                  'coding': [{
                             'system': "http://loinc.org",
@@ -203,7 +203,31 @@ def load_vcf_example(vcf_file):
                             'code': '337915000'}]}
         }
 
-        seq_data = dict(sequence_tmpl)
+        sequence_tmpl_STU3 = {
+            'text': {'status': 'generated'},
+            'coordinateSystem' : 0,
+            'resourceType': 'Sequence',
+            'type': 'DNA',
+            'referenceSeq':
+                {'chromosome': {'text': record.CHROM,
+                                'coding': [{'system': 'http://hl7.org/fhir/ValueSet/chromosome-human',
+                                            'code': record.CHROM}]},
+                 'genomeBuild': 'GRCh37',
+                 'referenceSeqId': {'coding': [{'system': 'http://www.ensembl.org',
+                                                'code': record.INFO.get('SNPEFF_TRANSCRIPT_ID')}]},
+                 'windowStart': record.POS,
+                 'windowEnd': int(record.end) + 1
+                 },
+
+            'variant': [{'start': record.POS,
+                          'end': int(record.end) + 1,
+                          'observedAllele': str(record.ALT[0]),
+                          'referenceAllele': record.REF
+                          }],
+
+        }
+
+        seq_data = dict(sequence_tmpl_STU3)
 
         variant_id = record.ID
         variant_ids.append(variant_id)
@@ -249,8 +273,20 @@ def create_diagnosticreport(patient_id):
         'performer': performer_id,
         'result': results
         }
-
-    return save_resource('reportforgenetics', data)
+    #Extension as reportforgenetics
+    data_STU3 = {
+        'resourceType': 'reportforgenetics',
+        'extension': extension,
+        'status': 'final',
+        'code': {'text': 'Gene mutation analysis'},
+        'subject': patient_id,
+        'effectivedateTime': rand_date(),
+        'issued': rand_date(),
+        'performer': [performer_id],
+        'result': results
+    }
+    #print json.dumps(data_STU3,indent=4)
+    return save_resource('reportforgenetics', data_STU3)
 
 
 def rand_practitioner(patient_id):
@@ -349,14 +385,15 @@ def init(resource):
 
 
 def init_superuser():
-    superuser = User(email='super')
+    superuser = User(email='0')
     db.session.add(superuser)
     global test_resource
     test_resource = partial(Resource, owner_id=superuser.email)
 
 
 if __name__ == '__main__':
-    from server import app
+    from server import clear_db,app
+    clear_db(app)
     with app.app_context():
         init_superuser()
         init_practitioner()
