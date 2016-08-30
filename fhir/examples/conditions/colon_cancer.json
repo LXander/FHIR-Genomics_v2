@@ -8,5 +8,6 @@
             "system": "http://snomed.org/sct"
         }]
     },
-    "verificationStatus": "confirmed"
+    "verificationStatus": "confirmed",
+    "subject" : "Patient"
 }

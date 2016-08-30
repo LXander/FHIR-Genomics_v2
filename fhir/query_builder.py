@@ -239,7 +239,7 @@ class QueryBuilder(object):
         # either way, we have to figure it out.
         modifier = param_data['modifier']
         possible_reference_types = REFERENCE_TYPES[resource_type][param_data['param']]
-        print possible_reference_types
+        #print possible_reference_types
         if (modifier is not None and modifier not in possible_reference_types) or (
             modifier is None and len(possible_reference_types) > 1):
             # either can't deduct type of the referenced resource
@@ -334,7 +334,7 @@ class QueryBuilder(object):
 
         predicates = [pred for pred in map(make_pred, iterdict(params))
                 if pred is not None]
-        print params
+        #print params
         # customized coordinate search parameter
         if 'coordinate' in params and resource_type == 'Sequence':
             coords = params['coordinate'].split(',') 

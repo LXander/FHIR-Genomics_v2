@@ -7,6 +7,7 @@ import names
 import random
 from functools import partial
 import os
+import json
 from fhir.fhir_error import inform_bad_request
 
 
@@ -25,6 +26,7 @@ def save_resource(resource_type, resource_data):
     save a resource to database and index its elements by search params
     '''
     valid, search_elements = parse_resource(resource_type, resource_data)
+
     assert valid
     resource = test_resource(resource_type, resource_data)
     index_resource(resource, search_elements, g=BUF)
@@ -57,6 +59,7 @@ def submit_web(resouce_type, data, user):
     global test_resource
     test_resource = partial(Resource, owner_id=user.email)
     result = save_resource(resouce_type, data)
+    assert result is not None
     commit_buffers(BUF)
     return result
 
@@ -86,12 +89,15 @@ def init(resource):
 if __name__ == '__main__':
     from server import app
     with app.app_context():
+        global test_resource
+        test_resource = partial(Resource, owner_id='name@mail.com')
         init('Practitioner')
         init('Organization')
-        test_resource = partial(Resource, owner_id='name@mail.com')
+
 
         for _ in xrange(8):
             patient = rand_patient()
+            assert  patient is not None
 
         commit_buffers(BUF)
 

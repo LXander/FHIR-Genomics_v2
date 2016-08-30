@@ -236,11 +236,11 @@ def submit():
             except:
                 message = "Incorrect content"
         if len(request.form['content']) != 0:
-            #try:
-            create_instance(request, request.session.user, 2)
-            message = "Submit successfully"
-            #except:
-            #message = "Incorrect content"
+            try:
+                create_instance(request, request.session.user, 2)
+                message = "Submit successfully"
+            except:
+                message = "Incorrect content"
         return render_template('submit.html', message=message)
 
 
