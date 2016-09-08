@@ -41,14 +41,14 @@ That's the default settings now. Just do not change APP_CONFIG['SQLALCHEMY_DATAB
 
 3. Optional: load your version of FHIR spec.
 #### before DSTU2:
-    
-   run the script `load_spec.py`, which will update `fhir/fhir_spec.py`. Please read comments in `load_spec.py` carefully before using it.
+
+run the script `load_spec.py`, which will update `fhir/fhir_spec.py`. Please read comments in `load_spec.py` carefully before using it.
    The specification for Connectathon 11 can be downloaded at: http://www.hl7.org/fhir/2016Jan/downloads.html
 
 #### for STU3:
-   
-   run the script `load_spec_STU3.py`,  which will update `fhir/fhir_spec.py`. Please read comments in `load_spec_STU3.py` carefully before using it.
-   The specification for STU3 Ballot version can be downloaded at: http://www.hl7.org/fhir/2016Sep/downloads.html
+
+run the script `load_spec_STU3.py`,  which will update `fhir/fhir_spec.py`. Please read comments in `load_spec_STU3.py` carefully before using it.
+  The specification for STU3 Ballot version can be downloaded at: http://www.hl7.org/fhir/2016Sep/downloads.html
 
 4. Load sample data with
 
@@ -79,6 +79,7 @@ That's the default settings now. Just do not change APP_CONFIG['SQLALCHEMY_DATAB
 
 ### How to create account and authorize the apps 
 
+To be continued
 
 If you find this useful, please cite the following paper:
 Alterovitz G, Warner J, Zhang P, Chen Y, Ullman-Cullere M, Kreda D,
