@@ -30,16 +30,16 @@ the pysam package of python, cannot run on Windows environment.**
     
 2. Edit `config.py`. Fill in settings for database, host, etc. as you desire. See comments in `config.py` for detailed instructions.
 
-#### postgresql
-If you want to use postgresql, check setup_db.py and install posegresql by yourself. You need
+    * postgresql. If you want to use postgresql, check setup_db.py and install posegresql by yourself. You need
 to set up PGUSERNAME ,PGPASSWORD , and DBNAME in config.py
 
-#### sqlite (no postgresql)
-That's the default settings now. Just do not change APP_CONFIG['SQLALCHEMY_DATABASE_URI']
+    * sqlite (no postgresql). That's the default settings now. Just do not change APP_CONFIG['SQLALCHEMY_DATABASE_URI']
 
-#### Mysql (Not tested)
+    * Mysql (Not tested)
+
 
 3. Optional: load your version of FHIR spec.
+
 #### before DSTU2:
 
 run the script `load_spec.py`, which will update `fhir/fhir_spec.py`. Please read comments in `load_spec.py` carefully before using it.
