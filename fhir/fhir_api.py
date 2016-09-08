@@ -273,7 +273,7 @@ def handle_search(request, resource_type):
     if (resource_type in ('Patient', 'Sequence') and
             g.ttam_client is not None):
         ttam_resource = resource_type
-    #print search_query
+    #print Search_query
     #print request
     resp_bundle = FHIRBundle(search_query, request, ttam_resource=ttam_resource)
     return resp_bundle.as_response()

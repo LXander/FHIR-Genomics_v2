@@ -32,13 +32,16 @@ APP_CONFIG = {
 }
 
 # Put Your host name here
-HOST = 'localhost:2048'
+# Note if u want to deploy it in public website.
+# you cannot write 'localhost' as base name, write the name
+# of the website instead
+HOST = 'localhost:2000'
 
 # replace this with directory where you put your FHIR specification,
 # which, should be roughly in this a format like this the `/site` directory 
 # in this zipped directory http://www.hl7.org/fhir/fhir-spec.zip.
 # NOTE: You SHOULDN'T be concerned about this if you don't wish to load different
-# version of FHIR than the one we are using (FHIR v1.4.0).
+# version of FHIR than the one we are using (FHIR v1.4.0/ FHIR v1.6.0 for STU3).
 FHIR_SPEC_DIR = '/home/wy/Documents/fhir-spec'
 
 # GOOGLE_API_KEY = 'AIzaSyB01GeX_HiuZbHCkZ-P5hJ7yUHVkwFS07Q'
