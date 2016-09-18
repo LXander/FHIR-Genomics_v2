@@ -424,25 +424,26 @@ if __name__ == '__main__':
     from server import clear_db,app
     clear_db(app)
     with app.app_context():
-        init_superuser()
-        init_practitioner()
-        init('Organization')
-        init_conditions()
-        patient_ids = []
-        sequence_ids = []
-        gene_names = []
-        variant_ids = []
-
         if STATIC_EXAMPLE:
             load_example_from_files(STATIC_DIR)
+        else:
 
-        for example_file in os.listdir(os.path.join(BASEDIR, 'examples/vcf')):
-            load_vcf_example(os.path.join(BASEDIR, 'examples/vcf', example_file))
-        sequence_amount = len(sequence_ids)
+            init_superuser()
+            init_practitioner()
+            init('Organization')
+            init_conditions()
+            patient_ids = []
+            sequence_ids = []
+            gene_names = []
+            variant_ids = []
+
+            for example_file in os.listdir(os.path.join(BASEDIR, 'examples/vcf')):
+                load_vcf_example(os.path.join(BASEDIR, 'examples/vcf', example_file))
+            sequence_amount = len(sequence_ids)
 
 
-        for _ in xrange(10):
-            patient = rand_patient()
-            create_diagnosticreport(patient.get_reference())
+            for _ in xrange(10):
+                patient = rand_patient()
+                create_diagnosticreport(patient.get_reference())
 
-        commit_buffers(BUF)
+            commit_buffers(BUF)
