@@ -425,6 +425,7 @@ if __name__ == '__main__':
     clear_db(app)
     with app.app_context():
         if STATIC_EXAMPLE:
+            init_superuser()
             load_example_from_files(STATIC_DIR)
         else:
 
