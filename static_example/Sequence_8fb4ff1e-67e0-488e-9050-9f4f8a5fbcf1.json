@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 58163266, 
+        "windowStart": 58163265, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "12", 
+            "coding": [
+                {
+                    "code": "12", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000548681", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs77194942 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 58163265, 
+            "referenceAllele": "C", 
+            "end": 58163266, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "8fb4ff1e-67e0-488e-9050-9f4f8a5fbcf1"
+}

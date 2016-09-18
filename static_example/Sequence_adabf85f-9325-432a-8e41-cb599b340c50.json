@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 131992963, 
+        "windowStart": 131992962, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "9", 
+            "coding": [
+                {
+                    "code": "9", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000408065", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs716549 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 131992962, 
+            "referenceAllele": "G", 
+            "end": 131992963, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "adabf85f-9325-432a-8e41-cb599b340c50"
+}

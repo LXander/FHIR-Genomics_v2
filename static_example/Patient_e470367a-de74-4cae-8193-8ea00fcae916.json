@@ -1,0 +1,14 @@
+{
+    "name": [
+        {
+            "text": "Helen Birchfield"
+        }
+    ], 
+    "resourceType": "Patient", 
+    "text": {
+        "status": "generated", 
+        "div": "<div><p>Helen Birchfield</p></div>"
+    }, 
+    "gender": "Female", 
+    "id": "e470367a-de74-4cae-8193-8ea00fcae916"
+}

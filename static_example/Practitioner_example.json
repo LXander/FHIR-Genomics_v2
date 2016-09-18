@@ -1,0 +1,14 @@
+{
+    "name": [
+        "Adam Careful"
+    ], 
+    "resourceType": "Practitioner", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>\n      <p>Dr Adam Careful is a Referring Practitioner for Acme Hospital from 1-Jan 2012 to 31-Mar\n        2012</p>\n    </div>"
+    }, 
+    "id": "example", 
+    "subject": {
+        "reference": "Patient/7b4be47a-3f2b-4b08-b603-f7128e0dc644"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 62159279, 
+        "windowStart": 62159278, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "11", 
+            "coding": [
+                {
+                    "code": "11", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000529226", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs3018622 is T/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 62159278, 
+            "referenceAllele": "T", 
+            "end": 62159279, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "29397a20-3121-4673-afb8-e2f60195c3f4"
+}

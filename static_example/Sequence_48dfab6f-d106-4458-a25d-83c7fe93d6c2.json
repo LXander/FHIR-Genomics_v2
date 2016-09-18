@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 44827794, 
+        "windowStart": 44827793, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "3", 
+            "coding": [
+                {
+                    "code": "3", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000326047", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs7642843 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 44827793, 
+            "referenceAllele": "T", 
+            "end": 44827794, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "48dfab6f-d106-4458-a25d-83c7fe93d6c2"
+}

@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 55593465, 
+        "windowStart": 55593464, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "4", 
+            "coding": [
+                {
+                    "code": "4", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000412167", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs3822214 is A/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 55593464, 
+            "referenceAllele": "A", 
+            "end": 55593465, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "09cd23db-e168-4839-a9ae-7bb0656a1269"
+}

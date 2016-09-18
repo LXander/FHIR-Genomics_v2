@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 90161853, 
+        "windowStart": 90161852, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "16", 
+            "coding": [
+                {
+                    "code": "16", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000458979", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs11076666 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 90161852, 
+            "referenceAllele": "A", 
+            "end": 90161853, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "6518061c-9a4d-4188-ba15-3086271d1eb5"
+}

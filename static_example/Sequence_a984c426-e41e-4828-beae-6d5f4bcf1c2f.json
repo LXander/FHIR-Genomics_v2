@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 76919469, 
+        "windowStart": 76919468, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "11", 
+            "coding": [
+                {
+                    "code": "11", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000341717", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs1320703 is A/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 76919468, 
+            "referenceAllele": "A", 
+            "end": 76919469, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "a984c426-e41e-4828-beae-6d5f4bcf1c2f"
+}

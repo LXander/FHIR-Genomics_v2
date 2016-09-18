@@ -1,0 +1,14 @@
+{
+    "name": [
+        {
+            "text": "Christian Zavala"
+        }
+    ], 
+    "resourceType": "Patient", 
+    "text": {
+        "status": "generated", 
+        "div": "<div><p>Christian Zavala</p></div>"
+    }, 
+    "gender": "Female", 
+    "id": "113ec44e-8534-47e8-8c67-d943ffc27f40"
+}

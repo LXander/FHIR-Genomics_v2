@@ -1,0 +1,14 @@
+{
+    "name": [
+        {
+            "text": "Bruce Mencia"
+        }
+    ], 
+    "resourceType": "Patient", 
+    "text": {
+        "status": "generated", 
+        "div": "<div><p>Bruce Mencia</p></div>"
+    }, 
+    "gender": "Male", 
+    "id": "db79dfea-100d-41e2-95c0-ef4a4cec9bd0"
+}

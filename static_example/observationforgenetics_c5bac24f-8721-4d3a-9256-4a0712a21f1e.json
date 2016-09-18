@@ -1,0 +1,80 @@
+{
+    "category": [
+        {
+            "text": "Laboratory", 
+            "coding": [
+                {
+                    "code": "laboratory", 
+                    "system": "http://hl7.org/fhir/ValueSet/observation-category"
+                }
+            ]
+        }
+    ], 
+    "status": "final", 
+    "code": {
+        "text": "Genetic analysis master panel", 
+        "coding": [
+            {
+                "code": "55233-1", 
+                "system": "http://loinc.org"
+            }
+        ]
+    }, 
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/observation-geneticsGenomicSourceClass", 
+            "valueCodeableConcept": {
+                "text": "Somatic", 
+                "coding": [
+                    {
+                        "code": "LA6684-0", 
+                        "system": "http://hl7.org/fhir/LOINC-48002-0-answerlist"
+                    }
+                ]
+            }
+        }, 
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/observation-geneticsDNAVariationId", 
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "code": "rs28526620", 
+                        "system": "http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi"
+                    }
+                ]
+            }
+        }, 
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/observation-geneticsGene", 
+            "valueCodeableConcept": {
+                "text": "RUFY1", 
+                "coding": [
+                    {
+                        "code": "19760", 
+                        "system": "http://www.genenames.org/"
+                    }
+                ]
+            }
+        }, 
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/observation-geneticsSequence", 
+            "valueReference": {
+                "reference": "Sequence/f50e296b-30fa-43fd-9f6f-15178878dbb7"
+            }
+        }
+    ], 
+    "resourceType": "observationforgenetics", 
+    "valueCodeableConcept": {
+        "text": "Positive", 
+        "coding": [
+            {
+                "code": "10828004", 
+                "system": "http://snomed.info/sct"
+            }
+        ]
+    }, 
+    "id": "c5bac24f-8721-4d3a-9256-4a0712a21f1e", 
+    "subject": {
+        "reference": "Patient/8a4870c9-1e52-428c-8d32-b121fc53d1a0"
+    }
+}

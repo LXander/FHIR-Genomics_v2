@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 33134636, 
+        "windowStart": 33134635, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "19", 
+            "coding": [
+                {
+                    "code": "19", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000306065", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs259228 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 33134635, 
+            "referenceAllele": "A", 
+            "end": 33134636, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "2acfe3bc-d6f6-4b94-8b09-c30dc5cf8ddc"
+}

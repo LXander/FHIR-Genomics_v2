@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 9422211, 
+        "windowStart": 9422210, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "3", 
+            "coding": [
+                {
+                    "code": "3", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000345094", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs2596916 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 9422210, 
+            "referenceAllele": "T", 
+            "end": 9422211, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "05f9882a-6a97-46dc-a269-5e2741a083d4"
+}

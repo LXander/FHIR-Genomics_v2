@@ -1,0 +1,63 @@
+{
+    "category": [
+        {
+            "text": "Laboratory", 
+            "coding": [
+                {
+                    "code": "laboratory", 
+                    "system": "http://hl7.org/fhir/ValueSet/observation-category"
+                }
+            ]
+        }
+    ], 
+    "status": "final", 
+    "code": {
+        "text": "Genetic analysis master panel", 
+        "coding": [
+            {
+                "code": "55233-1", 
+                "system": "http://loinc.org"
+            }
+        ]
+    }, 
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/observation-geneticsGenomicSourceClass", 
+            "valueCodeableConcept": {
+                "text": "Somatic", 
+                "coding": [
+                    {
+                        "code": "LA6684-0", 
+                        "system": "http://hl7.org/fhir/LOINC-48002-0-answerlist"
+                    }
+                ]
+            }
+        }, 
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/observation-geneticsGene", 
+            "valueCodeableConcept": {
+                "text": "BX276092.3"
+            }
+        }, 
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/observation-geneticsSequence", 
+            "valueReference": {
+                "reference": "Sequence/04b2bf5a-e550-4a0e-b477-385c63a2a552"
+            }
+        }
+    ], 
+    "resourceType": "observationforgenetics", 
+    "valueCodeableConcept": {
+        "text": "Positive", 
+        "coding": [
+            {
+                "code": "10828004", 
+                "system": "http://snomed.info/sct"
+            }
+        ]
+    }, 
+    "id": "e399f402-e8be-4988-93f8-7efae230c1db", 
+    "subject": {
+        "reference": "Patient/3535443b-9749-4b79-b9b6-47878a243dc2"
+    }
+}

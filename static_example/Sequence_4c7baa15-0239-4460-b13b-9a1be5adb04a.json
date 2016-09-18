@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 44055645, 
+        "windowStart": 44055644, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "19", 
+            "coding": [
+                {
+                    "code": "19", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000262887", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs3213368 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 44055644, 
+            "referenceAllele": "G", 
+            "end": 44055645, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "4c7baa15-0239-4460-b13b-9a1be5adb04a"
+}

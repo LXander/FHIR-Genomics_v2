@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 44280382, 
+        "windowStart": 44280381, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "1", 
+            "coding": [
+                {
+                    "code": "1", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000262915", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs37468 is A/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 44280381, 
+            "referenceAllele": "A", 
+            "end": 44280382, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "e265efd6-9178-4d47-b545-43e0336b2f6b"
+}

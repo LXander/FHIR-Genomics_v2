@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 160789197, 
+        "windowStart": 160789196, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "1", 
+            "coding": [
+                {
+                    "code": "1", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000471816", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs537540 is A/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 160789196, 
+            "referenceAllele": "A", 
+            "end": 160789197, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "1abd5671-7ecd-4f46-9f1d-442f5acb648f"
+}

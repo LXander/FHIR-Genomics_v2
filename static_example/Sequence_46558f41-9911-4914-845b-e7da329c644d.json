@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 71374703, 
+        "windowStart": 71374702, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "14", 
+            "coding": [
+                {
+                    "code": "14", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000238570", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs2526882 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 71374702, 
+            "referenceAllele": "G", 
+            "end": 71374703, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "46558f41-9911-4914-845b-e7da329c644d"
+}

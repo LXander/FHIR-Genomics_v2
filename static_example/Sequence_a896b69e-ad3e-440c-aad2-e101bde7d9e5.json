@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 84998446, 
+        "windowStart": 84998445, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "1", 
+            "coding": [
+                {
+                    "code": "1", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000263717", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs6690204 is C/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 84998445, 
+            "referenceAllele": "C", 
+            "end": 84998446, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "a896b69e-ad3e-440c-aad2-e101bde7d9e5"
+}

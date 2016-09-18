@@ -1,0 +1,43 @@
+{
+    "status": "final", 
+    "code": {
+        "text": "Gene mutation analysis"
+    }, 
+    "issued": "2012-6-2T21:35:00+01:00", 
+    "result": [
+        {
+            "reference": "observationforgenetics/80851b00-43fd-4464-8b4d-e0645ca90c72"
+        }, 
+        {
+            "reference": "observationforgenetics/e0506f1f-07c4-4c03-96d0-4e556d90f593"
+        }, 
+        {
+            "reference": "observationforgenetics/a6339dcf-acd4-4f22-ad3f-81ff74355a62"
+        }, 
+        {
+            "reference": "observationforgenetics/1d3bb48d-0ff9-4cf9-8d30-086d84c72817"
+        }, 
+        {
+            "reference": "observationforgenetics/0ea58c51-0732-42ef-b115-d9cdcd023dea"
+        }
+    ], 
+    "effectivedateTime": "2012-3-11T9:50:00+01:00", 
+    "id": "52d76fdc-c764-4330-9f56-7a929ca79c5e", 
+    "subject": {
+        "reference": "Patient/5bf070fe-2e90-4c84-bedb-da83b54bbb82"
+    }, 
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/diagnosticreport-geneticsAssessedCondition", 
+            "valueReference": {
+                "reference": "Condition/ce7dc024-03d7-4036-ae05-7cde0e8a4bef"
+            }
+        }
+    ], 
+    "resourceType": "reportforgenetics", 
+    "performer": [
+        {
+            "reference": "Practitioner/example"
+        }
+    ]
+}

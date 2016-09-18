@@ -1,0 +1,19 @@
+{
+    "code": {
+        "text": "Breast cancer", 
+        "coding": [
+            {
+                "code": "254837009", 
+                "display": "Malignant tumor of breast", 
+                "system": "http://snomed.org/sct"
+            }
+        ]
+    }, 
+    "patient": {
+        "reference": "Patient/be792e73-db3d-4526-91a8-68774fb4e876"
+    }, 
+    "resourceType": "Condition", 
+    "verificationStatus": "confirmed", 
+    "id": "266f8f92-f351-4030-b851-0709c1a69171", 
+    "subject": "Patient"
+}

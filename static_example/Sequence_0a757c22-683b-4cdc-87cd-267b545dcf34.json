@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 228176358, 
+        "windowStart": 228176357, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "2", 
+            "coding": [
+                {
+                    "code": "2", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000315699", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs4455148 is T/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 228176357, 
+            "referenceAllele": "T", 
+            "end": 228176358, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "0a757c22-683b-4cdc-87cd-267b545dcf34"
+}

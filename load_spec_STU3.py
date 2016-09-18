@@ -128,7 +128,7 @@ def process_profile(profile):
             try:
                 extension_type, extension_url = find_extension_attri(extension_full_name)
                 #print "add extension: " + extension_name
-                logging.info("add extension: "+ extension_name);
+
                 if extension_type:
                     extension_type_code = extension_type[0].get('code')
                     if extension_type_code == 'Reference':
@@ -141,6 +141,7 @@ def process_profile(profile):
                     extensions.append({'name': extension_name,
                                        'type': extension_type_code,
                                        'url': extension_url})
+                    logging.info("add extension: " + extension_name);
                 else:
                     complex_extensions[extension_url] = {}
                     complex_extension_names, complex_search_names, complex_extension_types = find_complex_extension_attri(extension_full_name, ori_element.get('name'))
@@ -161,7 +162,7 @@ def process_profile(profile):
                     #print "add a complex extension: %s" % extension_url
                     logging.info("add a complex extension: %s" % extension_url)
             except:
-                logging.warning('Unexpected Error at adding extension %s' % extension_url)
+                logging.warning('Unexpected Error at adding extension %s' % extension_name)
                 pass
 
         elif ori_element.get('type') is not None:
@@ -199,7 +200,7 @@ def process_profile(profile):
 
                 for element_type in ori_element['type']:
                     if element_type['code'] == 'Reference':
-                        reference_types['name'] = None
+                        reference_types['name'] = u'None'
                 elements.append(element)
 
             if len(references) > 0:
@@ -262,7 +263,8 @@ def load_spec(spec_dir):
                     logging.warning('There is no resource in this entry: {}'
                         .format(entry))
 
-    # load profiles
+    # load profiles ( Special Profile that might not shown in main file')
+    # Need Improvement
     for filename in ['observationforgenetics.profile.json',
                      #'consensus-sequence-block.profile.json',
                      'reportforgenetics.profile.json', 'orderforgenetics.profile.json',
@@ -276,7 +278,7 @@ def load_spec(spec_dir):
                 resource_block = dict(parsed)
                 resources_block.append(resource_block)
 
-
+    # parse resoruce_block
     for resource_block in resources_block:
         elements, resource_search_params, resource_reference_types, extensions_map, complex_extensions = process_profile(resource_block)
         assert 'id' in resource_block
@@ -290,24 +292,23 @@ def load_spec(spec_dir):
             }
         resource_names.append(name)
         reference_types[name] = resource_reference_types
-        print resource_reference_types,name
         if len(resource_reference_types) > 1:
             for item in resource_reference_types:
                 if item == 'name':
                     continue
-                print item
                 located_map = resource_reference_types[item]
+
+                # What's this mean for?
                 if 'Observation' in located_map:
-                    resource_reference_types[item] += ['observationforgenetics', 'consensus-sequence-block']
+                    resource_reference_types[item] += [u'observationforgenetics', u'consensus-sequence-block']
                 if 'DiagnosticReport' in located_map:
-                    resource_reference_types[item] += ['reportforgenetics', 'hlaresult']
+                    resource_reference_types[item] += [u'reportforgenetics', u'hlaresult']
                 if 'DiagnosticOrder' in located_map:
-                    resource_reference_types[item] += ['orderforgenetics']
-                #TODO: GET Through which replaces the 'DiagnosticOrder'
+                    resource_reference_types[item] += [u'orderforgenetics']
                 if 'DiagnosticRequest' in located_map:
-                    resource_reference_types[item] += ['orderforgenetics']
+                    resource_reference_types[item] += [u'orderforgenetics']
                 if 'FamilyMemberHistory' in located_map:
-                    resource_reference_types[item] += ['familymemberhistory-genetic']
+                    resource_reference_types[item] += [u'familymemberhistory-genetic']
 
         #print 'Loaded %s\'s profile' % name
         logging.info('Loaded %s\'s profile' % name)
@@ -318,16 +319,16 @@ def load_spec(spec_dir):
         spec_target.write('\n')
         spec_target.write('SPECS=' + json.dumps(specs,indent=4))
         spec_target.write('\n')
-        spec_target.write('RESOURCES=set(%s)'% json.dumps(resource_names,indent=4))
+        spec_target.write('RESOURCES=set(%s)'% str(resource_names))
         spec_target.write('\n')
-        spec_target.write('REFERENCE_TYPES=' + json.dumps(reference_types,indent=4))
+        spec_target.write('REFERENCE_TYPES=' + str(reference_types))
 
 def check_file_name(spec_dir):
     listedfile= os.listdir(spec_dir)
     for filename in listedfile:
         match = PROFILE_F_RE.search(filename)
         if match is not None:
-            #print match.group()
+            print match.group()
             pass
 
 
@@ -346,7 +347,7 @@ if __name__ == '__main__':
             print 'or do'
             print '$ python load_spec.py [spec dir]'
             sys.exit(1)
-    check_file_name(spec_dir)
+    #check_file_name(spec_dir)
     load_spec(spec_dir)
     print 'finished.!'
     logging.info('Finished Loading');

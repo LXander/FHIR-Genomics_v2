@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 6710573, 
+        "windowStart": 6710572, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "19", 
+            "coding": [
+                {
+                    "code": "19", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000461512", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs189367 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 6710572, 
+            "referenceAllele": "G", 
+            "end": 6710573, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "7c6d82a4-d77a-419b-aeaf-7bba5c0e9249"
+}

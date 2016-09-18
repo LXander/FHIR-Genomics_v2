@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 47162890, 
+        "windowStart": 47162889, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "12", 
+            "coding": [
+                {
+                    "code": "12", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000266579", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs2465582 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 47162889, 
+            "referenceAllele": "A", 
+            "end": 47162890, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "d7687525-9e14-4b6d-af6b-4879a23eec91"
+}

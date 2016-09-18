@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 25262770, 
+        "windowStart": 25262769, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "20", 
+            "coding": [
+                {
+                    "code": "20", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000216962", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs2227891 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 25262769, 
+            "referenceAllele": "G", 
+            "end": 25262770, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "a7b94f09-da0b-476a-a71d-1a00e22e27e5"
+}

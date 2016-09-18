@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 202151440, 
+        "windowStart": 202151439, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "2", 
+            "coding": [
+                {
+                    "code": "2", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000286190", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs3185378 is G/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 202151439, 
+            "referenceAllele": "G", 
+            "end": 202151440, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "a7d1a596-c2ba-447c-9e38-08bbcd037232"
+}

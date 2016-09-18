@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 6578488, 
+        "windowStart": 6578487, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "4", 
+            "coding": [
+                {
+                    "code": "4", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000285599", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs4689485 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 6578487, 
+            "referenceAllele": "A", 
+            "end": 6578488, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "0b006758-b01a-4334-b31b-6cd160ebc5f3"
+}

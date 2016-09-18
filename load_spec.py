@@ -245,13 +245,13 @@ def load_spec(spec_dir):
                 if item == 'name':
                     continue
                 if 'Observation' in resource_reference_types[item]:
-                    resource_reference_types[item] += ['observationforgenetics', 'consensus-sequence-block']
+                    resource_reference_types[item] += [u'observationforgenetics', u'consensus-sequence-block']
                 if 'DiagnosticReport' in resource_reference_types[item]:
-                    resource_reference_types[item] += ['reportforgenetics', 'hlaresult']
+                    resource_reference_types[item] += [u'reportforgenetics', u'hlaresult']
                 if 'DiagnosticOrder' in resource_reference_types[item]:
-                    resource_reference_types[item] += ['orderforgenetics']
+                    resource_reference_types[item] += [u'orderforgenetics']
                 if 'FamilyMemberHistory' in resource_reference_types[item]:
-                    resource_reference_types[item] += ['familymemberhistory-genetic']
+                    resource_reference_types[item] += [u'familymemberhistory-genetic']
 
         print 'Loaded %s\'s profile' % name
 

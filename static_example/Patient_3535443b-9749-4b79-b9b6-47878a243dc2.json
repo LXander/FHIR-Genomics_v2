@@ -1,0 +1,14 @@
+{
+    "name": [
+        {
+            "text": "Jose Wright"
+        }
+    ], 
+    "resourceType": "Patient", 
+    "text": {
+        "status": "generated", 
+        "div": "<div><p>Jose Wright</p></div>"
+    }, 
+    "gender": "Female", 
+    "id": "3535443b-9749-4b79-b9b6-47878a243dc2"
+}

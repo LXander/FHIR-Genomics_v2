@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 87812588, 
+        "windowStart": 87812586, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "4", 
+            "coding": [
+                {
+                    "code": "4", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000295898", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs113468701 is TA/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 87812586, 
+            "referenceAllele": "TA", 
+            "end": 87812588, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "3f1945ad-4523-49dd-87b1-048ed461ed3c"
+}

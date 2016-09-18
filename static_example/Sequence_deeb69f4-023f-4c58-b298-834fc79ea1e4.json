@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 41361961, 
+        "windowStart": 41361960, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "17", 
+            "coding": [
+                {
+                    "code": "17", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000537493", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs8482 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 41361960, 
+            "referenceAllele": "A", 
+            "end": 41361961, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "deeb69f4-023f-4c58-b298-834fc79ea1e4"
+}

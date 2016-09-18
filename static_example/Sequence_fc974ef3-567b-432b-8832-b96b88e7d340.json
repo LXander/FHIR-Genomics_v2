@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 32077538, 
+        "windowStart": 32077537, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "16", 
+            "coding": [
+                {
+                    "code": "16", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000354689", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs28719639 is G/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 32077537, 
+            "referenceAllele": "G", 
+            "end": 32077538, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "fc974ef3-567b-432b-8832-b96b88e7d340"
+}

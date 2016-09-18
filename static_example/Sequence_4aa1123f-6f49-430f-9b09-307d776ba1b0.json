@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 74155347, 
+        "windowStart": 74155346, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "6", 
+            "coding": [
+                {
+                    "code": "6", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000296913", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs610913 is G/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 74155346, 
+            "referenceAllele": "G", 
+            "end": 74155347, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "4aa1123f-6f49-430f-9b09-307d776ba1b0"
+}

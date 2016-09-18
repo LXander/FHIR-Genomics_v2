@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 151829660, 
+        "windowStart": 151829659, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "4", 
+            "coding": [
+                {
+                    "code": "4", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000357115", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs1201207 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 151829659, 
+            "referenceAllele": "T", 
+            "end": 151829660, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "0be8ec1d-2bbe-4e85-8a5b-f4423bea965d"
+}

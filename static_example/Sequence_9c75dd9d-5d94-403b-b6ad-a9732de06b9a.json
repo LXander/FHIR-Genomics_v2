@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 54964975, 
+        "windowStart": 54964974, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "5", 
+            "coding": [
+                {
+                    "code": "5", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000502247", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs7737254 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 54964974, 
+            "referenceAllele": "A", 
+            "end": 54964975, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "9c75dd9d-5d94-403b-b6ad-a9732de06b9a"
+}

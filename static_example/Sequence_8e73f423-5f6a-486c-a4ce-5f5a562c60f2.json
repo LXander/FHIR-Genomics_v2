@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 44959214, 
+        "windowStart": 44959213, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "11", 
+            "coding": [
+                {
+                    "code": "11", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000308212", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs2279363 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 44959213, 
+            "referenceAllele": "C", 
+            "end": 44959214, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "8e73f423-5f6a-486c-a4ce-5f5a562c60f2"
+}

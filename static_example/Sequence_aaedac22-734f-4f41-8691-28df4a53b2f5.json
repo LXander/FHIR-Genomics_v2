@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 67818067, 
+        "windowStart": 67818066, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "18", 
+            "coding": [
+                {
+                    "code": "18", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000255674", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs12607032 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 67818066, 
+            "referenceAllele": "T", 
+            "end": 67818067, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "aaedac22-734f-4f41-8691-28df4a53b2f5"
+}

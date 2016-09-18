@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 22208031, 
+        "windowStart": 22208030, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "1", 
+            "coding": [
+                {
+                    "code": "1", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000374695", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs921847 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 22208030, 
+            "referenceAllele": "C", 
+            "end": 22208031, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "83ec1eba-3dd0-4b2f-9ad3-d5ae722a7431"
+}

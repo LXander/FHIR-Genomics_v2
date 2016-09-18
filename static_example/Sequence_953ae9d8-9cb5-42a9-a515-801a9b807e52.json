@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 47552210, 
+        "windowStart": 47552209, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "21", 
+            "coding": [
+                {
+                    "code": "21", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000300527", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs35548026 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 47552209, 
+            "referenceAllele": "G", 
+            "end": 47552210, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "953ae9d8-9cb5-42a9-a515-801a9b807e52"
+}

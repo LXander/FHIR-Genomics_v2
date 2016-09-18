@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 5923327, 
+        "windowStart": 5923326, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "9", 
+            "coding": [
+                {
+                    "code": "9", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000381461", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs7045445 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 5923326, 
+            "referenceAllele": "C", 
+            "end": 5923327, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "61b895df-be5c-4d4b-b59f-84a46fc0e7c2"
+}

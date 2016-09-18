@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 99816286, 
+        "windowStart": 99816285, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "7", 
+            "coding": [
+                {
+                    "code": "7", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000379577", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs79649688 is A/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 99816285, 
+            "referenceAllele": "A", 
+            "end": 99816286, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "25b34726-9335-4b6b-b2f6-64c4182255b9"
+}

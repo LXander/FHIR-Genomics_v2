@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 70979260, 
+        "windowStart": 70979259, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "X", 
+            "coding": [
+                {
+                    "code": "X", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000456199", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of anonymous variant is T/TGC</div>"
+    }, 
+    "variant": [
+        {
+            "start": 70979259, 
+            "referenceAllele": "T", 
+            "end": 70979260, 
+            "observedAllele": "TGC"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "04b2bf5a-e550-4a0e-b477-385c63a2a552"
+}

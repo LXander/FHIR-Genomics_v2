@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 151532227, 
+        "windowStart": 151532226, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "3", 
+            "coding": [
+                {
+                    "code": "3", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000232892", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs2293003 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 151532226, 
+            "referenceAllele": "G", 
+            "end": 151532227, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "491ca428-59b7-4ea7-b25d-eb243e83f204"
+}

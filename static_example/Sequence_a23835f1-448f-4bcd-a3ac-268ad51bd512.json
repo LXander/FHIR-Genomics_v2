@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 147497933, 
+        "windowStart": 147497932, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "5", 
+            "coding": [
+                {
+                    "code": "5", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000256084", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs3777135 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 147497932, 
+            "referenceAllele": "T", 
+            "end": 147497933, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "a23835f1-448f-4bcd-a3ac-268ad51bd512"
+}

@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 150779756, 
+        "windowStart": 150779755, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "1", 
+            "coding": [
+                {
+                    "code": "1", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000443913", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs6587522 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 150779755, 
+            "referenceAllele": "C", 
+            "end": 150779756, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "1fb397ab-c861-4178-b208-e62067b53ce5"
+}

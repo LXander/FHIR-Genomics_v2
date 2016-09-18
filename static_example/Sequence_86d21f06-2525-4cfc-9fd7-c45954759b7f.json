@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 150094854, 
+        "windowStart": 150094853, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "7", 
+            "coding": [
+                {
+                    "code": "7", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000329630", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs7780011 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 150094853, 
+            "referenceAllele": "G", 
+            "end": 150094854, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "86d21f06-2525-4cfc-9fd7-c45954759b7f"
+}

@@ -1,0 +1,30 @@
+{
+    "telecom": [
+        {
+            "use": "work", 
+            "system": "phone", 
+            "value": "+1 555 234 1234"
+        }, 
+        {
+            "use": "work", 
+            "system": "email", 
+            "value": "contact@labs.acme.org"
+        }
+    ], 
+    "name": "Myriad Lab", 
+    "resourceType": "Organization", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>\n      \n      <p> Myriad Lab   </p>\n    \n    </div>"
+    }, 
+    "identifier": [
+        {
+            "fhir_comments": [
+                "   Myriad Lab   "
+            ], 
+            "value": "SeqLab", 
+            "system": "http://www.acme.org.au/units"
+        }
+    ], 
+    "id": "1832473e-2fe0-452d-abe9-3cdb9879522f"
+}

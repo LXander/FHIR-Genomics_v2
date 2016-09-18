@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 121634411, 
+        "windowStart": 121634410, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "3", 
+            "coding": [
+                {
+                    "code": "3", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000295605", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs9812515 is T/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 121634410, 
+            "referenceAllele": "T", 
+            "end": 121634411, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "54c727c6-0b67-4bea-a9fd-79402b265be2"
+}

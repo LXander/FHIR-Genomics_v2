@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 32522651, 
+        "windowStart": 32522650, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "6", 
+            "coding": [
+                {
+                    "code": "6", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000411500", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs35455030 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 32522650, 
+            "referenceAllele": "T", 
+            "end": 32522651, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "9c6b8321-c72d-4367-8ab5-f2ed642e5aa2"
+}

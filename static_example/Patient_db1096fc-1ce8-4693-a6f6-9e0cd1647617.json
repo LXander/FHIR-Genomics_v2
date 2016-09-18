@@ -1,0 +1,14 @@
+{
+    "name": [
+        {
+            "text": "Hazel Thomas"
+        }
+    ], 
+    "resourceType": "Patient", 
+    "text": {
+        "status": "generated", 
+        "div": "<div><p>Hazel Thomas</p></div>"
+    }, 
+    "gender": "Male", 
+    "id": "db1096fc-1ce8-4693-a6f6-9e0cd1647617"
+}

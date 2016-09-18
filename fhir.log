@@ -730,3 +730,24 @@
 [2015-12-17 12:53:22 -0500] [29608] [ERROR] Connection in use: ('localhost', 8080)
 [2015-12-17 12:53:22 -0500] [29608] [ERROR] Retrying in 1 second.
 [2015-12-17 12:53:23 -0500] [29608] [ERROR] Can't connect to ('localhost', 8080)
+[2016-08-25 16:18:20,911] ERROR in app: Exception on /submit [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/wy/Documents/BCH_coding/Python/FHIR-Genomics_SUT3/fhir/ui.py", line 240, in submit
+    create_instance(request, request.session.user, 2)
+  File "/home/wy/Documents/BCH_coding/Python/FHIR-Genomics_SUT3/fhir/ui.py", line 85, in create_instance
+    submit_web(resource_type, content, user)
+  File "/home/wy/Documents/BCH_coding/Python/FHIR-Genomics_SUT3/submit.py", line 59, in submit_web
+    result = save_resource(resouce_type, data)
+  File "/home/wy/Documents/BCH_coding/Python/FHIR-Genomics_SUT3/submit.py", line 28, in save_resource
+    assert valid
+AssertionError

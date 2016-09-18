@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 65607638, 
+        "windowStart": 65607637, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "3", 
+            "coding": [
+                {
+                    "code": "3", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000330909", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs3749455 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 65607637, 
+            "referenceAllele": "A", 
+            "end": 65607638, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "57bc300e-e5b4-4d7a-a80c-a1412d7c6bfb"
+}

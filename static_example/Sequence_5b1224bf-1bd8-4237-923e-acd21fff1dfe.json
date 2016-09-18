@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 57188527, 
+        "windowStart": 57188526, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "7", 
+            "coding": [
+                {
+                    "code": "7", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000331162", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs62464801 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 57188526, 
+            "referenceAllele": "T", 
+            "end": 57188527, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "5b1224bf-1bd8-4237-923e-acd21fff1dfe"
+}

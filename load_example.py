@@ -17,6 +17,10 @@ MAX_SEQ_PER_FILE = 110
 PRE_EXTENSION_OBS_URL = 'http://hl7.org/fhir/StructureDefinition/observation-genetics'
 PRE_EXTENSION_REPORT_URL = 'http://hl7.org/fhir/StructureDefinition/diagnosticreport-genetics'
 
+STATIC_EXAMPLE= True
+STATIC_DIR = 'static_example/'
+WRITE_TO_FILE = False
+
 class MockG(object):
     def __init__(self):
         self._nodep_buffers = {}
@@ -30,8 +34,21 @@ def save_resource(resource_type, resource_data):
     '''
     valid, search_elements = parse_resource(resource_type, resource_data)
     assert valid
-    resource = test_resource(resource_type, resource_data)
+    if 'id' in resource_data:
+        resource = test_resource(resource_type, resource_data, resource_id=resource_data['id'])
+    else:
+        resource = test_resource(resource_type, resource_data)
+
     index_resource(resource, search_elements, g=BUF)
+    output = json.loads(resource.data)
+    if 'id' not in resource_data:
+        resource_data['id']=output['id']
+    if 'meta' in resource_data:
+        del resource_data['meta']
+        del resource_data['privacy_policy']
+    if WRITE_TO_FILE:
+        with open('static_example/{}_{}.json'.format(resource_type, resource_data['id']), 'w') as spec_target:
+            spec_target.write(json.dumps(resource_data, indent=4))
     return resource
 
 
@@ -39,7 +56,7 @@ def rand_patient():
     '''
     generate random resource and index its elements by search params
     '''
-    gender = 'female' if random.random() < 0.5 else 'male'
+    gender = 'Female' if random.random() < 0.5 else 'Male'
     first_name = names.get_first_name(gender=gender)
     last_name = names.get_last_name()
     full_name = '%s %s' % (first_name, last_name)
@@ -390,6 +407,18 @@ def init_superuser():
     global test_resource
     test_resource = partial(Resource, owner_id=superuser.email)
 
+def load_example_from_files(filedir):
+
+    filenames = os.listdir(filedir)
+
+    for filename in filenames:
+        if filename.split('.')[-1]!='json':
+            continue
+        res_type= filename.split('_')[0]
+        res_instance = save_resource(res_type, load_from_file(filename,filedir))
+        print 'Created %s' % res_instance
+
+
 
 if __name__ == '__main__':
     from server import clear_db,app
@@ -403,6 +432,9 @@ if __name__ == '__main__':
         sequence_ids = []
         gene_names = []
         variant_ids = []
+
+        if STATIC_EXAMPLE:
+            load_example_from_files(STATIC_DIR)
 
         for example_file in os.listdir(os.path.join(BASEDIR, 'examples/vcf')):
             load_vcf_example(os.path.join(BASEDIR, 'examples/vcf', example_file))

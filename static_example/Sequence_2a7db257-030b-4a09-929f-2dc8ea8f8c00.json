@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 215793835, 
+        "windowStart": 215793834, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "1", 
+            "coding": [
+                {
+                    "code": "1", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000259154", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs14137 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 215793834, 
+            "referenceAllele": "G", 
+            "end": 215793835, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "2a7db257-030b-4a09-929f-2dc8ea8f8c00"
+}

@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 8412134, 
+        "windowStart": 8412133, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "17", 
+            "coding": [
+                {
+                    "code": "17", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000269243", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs9889907 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 8412133, 
+            "referenceAllele": "A", 
+            "end": 8412134, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "b411cf76-2a48-4afa-b693-5ff84e406c50"
+}

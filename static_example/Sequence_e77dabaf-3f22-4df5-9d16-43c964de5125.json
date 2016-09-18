@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 12232424, 
+        "windowStart": 12232423, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "8", 
+            "coding": [
+                {
+                    "code": "8", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000526502", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs2739957 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 12232423, 
+            "referenceAllele": "A", 
+            "end": 12232424, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "e77dabaf-3f22-4df5-9d16-43c964de5125"
+}

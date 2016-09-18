@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 48461147, 
+        "windowStart": 48461146, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "15", 
+            "coding": [
+                {
+                    "code": "15", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000267836", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs3817315 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 48461146, 
+            "referenceAllele": "T", 
+            "end": 48461147, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "1df4ea64-9a05-4276-b113-4cb5500ecd9c"
+}

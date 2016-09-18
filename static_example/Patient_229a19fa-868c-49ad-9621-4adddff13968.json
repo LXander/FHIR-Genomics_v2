@@ -1,0 +1,14 @@
+{
+    "name": [
+        {
+            "text": "Louis Clark"
+        }
+    ], 
+    "resourceType": "Patient", 
+    "text": {
+        "status": "generated", 
+        "div": "<div><p>Louis Clark</p></div>"
+    }, 
+    "gender": "Male", 
+    "id": "229a19fa-868c-49ad-9621-4adddff13968"
+}

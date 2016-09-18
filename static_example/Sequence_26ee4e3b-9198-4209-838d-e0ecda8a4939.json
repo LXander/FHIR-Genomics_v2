@@ -1,0 +1,40 @@
+{
+    "referenceSeq": {
+        "windowEnd": 101795491, 
+        "windowStart": 101795490, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "5", 
+            "coding": [
+                {
+                    "code": "5", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000379807", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "type": "DNA", 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs11746217 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 101795490, 
+            "referenceAllele": "A", 
+            "end": 101795491, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "id": "26ee4e3b-9198-4209-838d-e0ecda8a4939"
+}
