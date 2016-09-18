@@ -1,7 +1,19 @@
-Reference API server of SMART Genomics
+SMART-on-FHIR Genomics API Sandbox deploy tutorial
+
+## Preface
+
+This readme will cover basic process on how to deploy this server from 
+a clean-new environment. Although it is tested only in **Ubuntu**, for linux
+and Mac OS user, this will be no hard to run this server
+
+**For Windows user, unfortunately, some part in this server, especially 
+the pysam package of python, cannot run on Windows environment.**
 
 ## How to use it
-1. Install dependency with
+
+### Preliminary environment check
+
+1. The quickest way to install python package in this server is using pip:
 
 	```
     # python 2.7
@@ -9,38 +21,61 @@ Reference API server of SMART Genomics
 	# or use virtualenv instead (recommended)
 	$ pip install -r requirements.txt
 	```
-    Install PostgreSQL. Currently we use PostgresSQL for development, and our script `setup_db.py` is written specifically for Postgre. Contributions to support MySQL are welcomed.
-
+	
+    However, some part cannot build successfully , in that case , run this command:
+    ```
+    $ sudo apt-get install python-dev libpq-dev libxml2-dev libxslt1-dev
+    ```
+    
+    
 2. Edit `config.py`. Fill in settings for database, host, etc. as you desire. See comments in `config.py` for detailed instructions.
 
-3. Optional: load your version of FHIR spec with the script `load_spec.py`, which will update `fhir/fhir_spec.py`. Please read comments in `load_spec.py` carefully before using it.
-    The specification for Connectathon 11 can be downloaded at: http://www.hl7.org/fhir/2016Jan/downloads.html
+    * postgresql. If you want to use postgresql, check setup_db.py and install posegresql by yourself. You need
+to set up PGUSERNAME ,PGPASSWORD , and DBNAME in config.py
 
-4. If you haven't created the database you specified in `config.py`, simply use command below to create it
-	
-	```
-	$ python setup_db.py
-	``` 
-5. Load sample data with
+    * sqlite (no postgresql). That's the default settings now. Just do not change APP_CONFIG['SQLALCHEMY_DATABASE_URI']
+
+    * Mysql (Not tested)
+
+
+3. Optional: load your version of FHIR spec.
+
+    * before DSTU2: run the script `load_spec.py`, which will update `fhir/fhir_spec.py`. Please read comments in `load_spec.py` carefully before using it.
+   The specification for Connectathon 11 can be downloaded at: http://www.hl7.org/fhir/2016Jan/downloads.html
+
+    * for STU3: run the script `load_spec_STU3.py`,  which will update `fhir/fhir_spec.py`. Please read comments in `load_spec_STU3.py` carefully before using it.
+  The specification for STU3 Ballot version can be downloaded at: http://www.hl7.org/fhir/2016Sep/downloads.html
+
+4. Load sample data with
 
 	```
 	$ python load_example.py
 	```
-6. To run with `gunicorn` do
 
-	```
-	$ python server.py run
-	```
-7. Alternatively you can use `flask`'s debug instance like this
+### Usage of this server
+5. Now you can use `flask`'s debug instance like this to test your sandbox server
 
-	```
+    ```
 	$ python server.py run --debug
 	```
-8. To wipe out the database (for debugging or whatever reason), do
+
+6. To wipe out the database (for debugging or whatever reason), do
 
 	```
 	$ python server.py clear
 	```
+
+### How to deploy the server
+
+7. Simply deploy by `gunicorn` , try it with parameter 'run' as follows:
+
+	```
+	$ python server.py run
+	```
+
+### How to create account and authorize the apps 
+
+To be continued
 
 If you find this useful, please cite the following paper:
 Alterovitz G, Warner J, Zhang P, Chen Y, Ullman-Cullere M, Kreda D,
