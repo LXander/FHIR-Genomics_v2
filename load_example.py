@@ -32,8 +32,14 @@ def save_resource(resource_type, resource_data):
     '''
     save a resource to database and index its elements by search params
     '''
+    if 'meta' in resource_data:
+        del resource_data['meta']
+        del resource_data['privacy_policy']
+
     valid, search_elements = parse_resource(resource_type, resource_data)
     assert valid
+
+
     if 'id' in resource_data:
         resource = test_resource(resource_type, resource_data, resource_id=resource_data['id'])
     else:
@@ -43,9 +49,7 @@ def save_resource(resource_type, resource_data):
     output = json.loads(resource.data)
     if 'id' not in resource_data:
         resource_data['id']=output['id']
-    if 'meta' in resource_data:
-        del resource_data['meta']
-        del resource_data['privacy_policy']
+
     if WRITE_TO_FILE:
         with open('static_example/{}_{}.json'.format(resource_type, resource_data['id']), 'w') as spec_target:
             spec_target.write(json.dumps(resource_data, indent=4))
@@ -411,12 +415,17 @@ def load_example_from_files(filedir):
 
     filenames = os.listdir(filedir)
 
-    for filename in filenames:
-        if filename.split('.')[-1]!='json':
-            continue
-        res_type= filename.split('_')[0]
-        res_instance = save_resource(res_type, load_from_file(filename,filedir))
-        print 'Created %s' % res_instance
+    Order = ['Organization','Patient','Sequence','Condition','Practitioner','observationforgenetics','reportforgenetics']
+    for k in range(len(Order)):
+        for filename in filenames:
+            if filename.split('.')[-1]!='json':
+                continue
+            res_type= filename.split('_')[0]
+            if res_type!= Order[k]:
+                continue
+            res_instance = save_resource(res_type, load_from_file(filename,filedir))
+            print res_instance.get_reference()
+            print 'Created %s' % res_type
 
 
 
@@ -427,6 +436,7 @@ if __name__ == '__main__':
         if STATIC_EXAMPLE:
             init_superuser()
             load_example_from_files(STATIC_DIR)
+            commit_buffers(BUF)
         else:
 
             init_superuser()
