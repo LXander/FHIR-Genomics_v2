@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 27425324, 
+        "windowStart": 27425323, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "21", 
+            "coding": [
+                {
+                    "code": "21", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000346798", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs6516719 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 27425323, 
+            "referenceAllele": "C", 
+            "end": 27425324, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.640712"
+    }, 
+    "type": "DNA", 
+    "id": "67b92aa1-17b3-421d-b6d3-5a971d3bb4d5"
+}

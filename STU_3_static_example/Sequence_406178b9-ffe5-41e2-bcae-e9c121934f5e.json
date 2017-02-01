@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 140110275, 
+        "windowStart": 140110274, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "9", 
+            "coding": [
+                {
+                    "code": "9", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000391553", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs7390663 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 140110274, 
+            "referenceAllele": "T", 
+            "end": 140110275, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.418903"
+    }, 
+    "type": "DNA", 
+    "id": "406178b9-ffe5-41e2-bcae-e9c121934f5e"
+}

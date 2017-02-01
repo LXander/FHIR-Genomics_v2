@@ -1,0 +1,24 @@
+{
+    "code": {
+        "text": "Celiac disease", 
+        "coding": [
+            {
+                "code": "396331005", 
+                "display": "Celiac disease", 
+                "system": "http://snomed.org/sct"
+            }
+        ]
+    }, 
+    "privacy_policy": null, 
+    "patient": {
+        "reference": "Patient/f111eccf-ab07-4f73-ae3a-60c67a107fab"
+    }, 
+    "resourceType": "Condition", 
+    "verificationStatus": "confirmed", 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.717190"
+    }, 
+    "id": "38418b07-3af9-456b-a0bd-a3ecf4bcdd37", 
+    "subject": "Patient"
+}

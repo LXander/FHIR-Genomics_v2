@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 101566119, 
+        "windowStart": 101566118, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "15", 
+            "coding": [
+                {
+                    "code": "15", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000525617", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs4427776 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 101566118, 
+            "referenceAllele": "C", 
+            "end": 101566119, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.509744"
+    }, 
+    "type": "DNA", 
+    "id": "5b18a50a-298f-436c-be3b-94a1dcaff10d"
+}

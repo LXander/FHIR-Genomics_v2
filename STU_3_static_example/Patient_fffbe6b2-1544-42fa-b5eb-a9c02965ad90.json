@@ -1,0 +1,19 @@
+{
+    "privacy_policy": null, 
+    "name": [
+        {
+            "text": "Daniela Brown"
+        }
+    ], 
+    "resourceType": "Patient", 
+    "text": {
+        "status": "generated", 
+        "div": "<div><p>Daniela Brown</p></div>"
+    }, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:51.861090"
+    }, 
+    "gender": "Male", 
+    "id": "fffbe6b2-1544-42fa-b5eb-a9c02965ad90"
+}

@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 14852336, 
+        "windowStart": 14852335, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "18", 
+            "coding": [
+                {
+                    "code": "18", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000358984", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs12386087 is C/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 14852335, 
+            "referenceAllele": "C", 
+            "end": 14852336, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.019016"
+    }, 
+    "type": "DNA", 
+    "id": "9f14ada7-8031-49a8-83eb-162108b303e8"
+}

@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 29794957, 
+        "windowStart": 29794956, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "6", 
+            "coding": [
+                {
+                    "code": "6", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000376828", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs35674592 is G/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 29794956, 
+            "referenceAllele": "G", 
+            "end": 29794957, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.394737"
+    }, 
+    "type": "DNA", 
+    "id": "3f86a227-f347-4e0b-86c2-38000d87a1cb"
+}

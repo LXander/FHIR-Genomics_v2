@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 114951391, 
+        "windowStart": 114951390, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "1", 
+            "coding": [
+                {
+                    "code": "1", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000358465", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs71662879 is T/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 114951390, 
+            "referenceAllele": "T", 
+            "end": 114951391, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.212850"
+    }, 
+    "type": "DNA", 
+    "id": "28605aaf-a564-4bf6-91da-bbf1666e5014"
+}

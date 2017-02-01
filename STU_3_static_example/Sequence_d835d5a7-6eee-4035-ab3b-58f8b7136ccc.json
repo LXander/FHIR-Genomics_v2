@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 45897998, 
+        "windowStart": 45897997, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "22", 
+            "coding": [
+                {
+                    "code": "22", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000262722", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs3810631 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 45897997, 
+            "referenceAllele": "T", 
+            "end": 45897998, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.462280"
+    }, 
+    "type": "DNA", 
+    "id": "d835d5a7-6eee-4035-ab3b-58f8b7136ccc"
+}

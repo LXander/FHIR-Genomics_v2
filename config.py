@@ -39,7 +39,7 @@ HOST = 'ec2-52-43-253-18.us-west-2.compute.amazonaws.com:2048'
 # in this zipped directory http://www.hl7.org/fhir/fhir-spec.zip.
 # NOTE: You SHOULDN'T be concerned about this if you don't wish to load different
 # version of FHIR than the one we are using (FHIR v1.4.0).
-FHIR_SPEC_DIR = '/home/wy/Documents/fhir-spec'
+FHIR_SPEC_DIR = '/Users/xander/Downloads/fhir-spec/site'
 
 # GOOGLE_API_KEY = 'AIzaSyB01GeX_HiuZbHCkZ-P5hJ7yUHVkwFS07Q'
 # SECRET_KEY = 'hi'

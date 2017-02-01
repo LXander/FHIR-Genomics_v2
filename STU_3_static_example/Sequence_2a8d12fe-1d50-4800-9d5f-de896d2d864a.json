@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 25981368, 
+        "windowStart": 25981367, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "15", 
+            "coding": [
+                {
+                    "code": "15", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000356865", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs7177724 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 25981367, 
+            "referenceAllele": "C", 
+            "end": 25981368, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.223997"
+    }, 
+    "type": "DNA", 
+    "id": "2a8d12fe-1d50-4800-9d5f-de896d2d864a"
+}

@@ -1,0 +1,19 @@
+{
+    "privacy_policy": null, 
+    "name": [
+        {
+            "text": "Randall Hyde"
+        }
+    ], 
+    "resourceType": "Patient", 
+    "text": {
+        "status": "generated", 
+        "div": "<div><p>Randall Hyde</p></div>"
+    }, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:51.852613"
+    }, 
+    "gender": "Female", 
+    "id": "f43fa218-80ce-495b-8ee0-3a264e9409e5"
+}

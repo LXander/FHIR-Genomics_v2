@@ -1,0 +1,88 @@
+{
+    "category": [
+        {
+            "text": "Laboratory", 
+            "coding": [
+                {
+                    "code": "laboratory", 
+                    "system": "http://hl7.org/fhir/ValueSet/observation-category"
+                }
+            ]
+        }
+    ], 
+    "status": "final", 
+    "privacy_policy": null, 
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/observation-geneticsGenomicSourceClass", 
+            "valueCodeableConcept": {
+                "text": "Germline", 
+                "coding": [
+                    {
+                        "code": "LA6683-2", 
+                        "system": "http://hl7.org/fhir/LOINC-48002-0-answerlist"
+                    }
+                ]
+            }
+        }, 
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/observation-geneticsDNAVariationId", 
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "code": "rs1675955", 
+                        "system": "http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi"
+                    }
+                ]
+            }
+        }, 
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/observation-geneticsGene", 
+            "valueCodeableConcept": {
+                "text": "TMEM44", 
+                "coding": [
+                    {
+                        "code": "25120", 
+                        "system": "http://www.genenames.org/"
+                    }
+                ]
+            }
+        }, 
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/observation-geneticsSequence", 
+            "valueReference": {
+                "reference": "Sequence/81ccb1a6-f801-48ca-96c9-1f6ba7e3be32"
+            }
+        }
+    ], 
+    "resourceType": "Observation", 
+    "code": {
+        "text": "Genetic analysis master panel", 
+        "coding": [
+            {
+                "code": "55233-1", 
+                "system": "http://loinc.org"
+            }
+        ]
+    }, 
+    "meta": {
+        "profile": [
+            "Observation-genetics"
+        ], 
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:54.103903"
+    }, 
+    "valueCodeableConcept": {
+        "text": "Negative", 
+        "coding": [
+            {
+                "code": "260385009", 
+                "system": "http://snomed.info/sct"
+            }
+        ]
+    }, 
+    "id": "38e7739a-94e2-4233-9609-3c836a63aeca", 
+    "subject": {
+        "reference": "Patient/ebe71942-bf55-45ea-b8d6-e6e2ff4f38bc"
+    }
+}

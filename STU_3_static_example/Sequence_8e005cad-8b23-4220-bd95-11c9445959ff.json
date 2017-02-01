@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 96578218, 
+        "windowStart": 96578217, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "2", 
+            "coding": [
+                {
+                    "code": "2", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000295246", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs184728251 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 96578217, 
+            "referenceAllele": "C", 
+            "end": 96578218, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.862562"
+    }, 
+    "type": "DNA", 
+    "id": "8e005cad-8b23-4220-bd95-11c9445959ff"
+}

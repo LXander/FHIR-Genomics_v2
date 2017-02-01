@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 113599208, 
+        "windowStart": 113599207, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "8", 
+            "coding": [
+                {
+                    "code": "8", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000297405", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs7460155 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 113599207, 
+            "referenceAllele": "A", 
+            "end": 113599208, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.310454"
+    }, 
+    "type": "DNA", 
+    "id": "3ae615e7-4955-4bfc-a1a6-a4d1f8b30d5c"
+}

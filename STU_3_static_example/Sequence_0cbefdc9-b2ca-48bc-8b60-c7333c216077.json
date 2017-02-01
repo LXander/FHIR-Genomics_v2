@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 111119621, 
+        "windowStart": 111119620, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "13", 
+            "coding": [
+                {
+                    "code": "13", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000478681", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs9521789 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 111119620, 
+            "referenceAllele": "C", 
+            "end": 111119621, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:51.925884"
+    }, 
+    "type": "DNA", 
+    "id": "0cbefdc9-b2ca-48bc-8b60-c7333c216077"
+}

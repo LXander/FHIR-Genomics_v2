@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 55844106, 
+        "windowStart": 55844105, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "2", 
+            "coding": [
+                {
+                    "code": "2", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000272313", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs782593 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 55844105, 
+            "referenceAllele": "C", 
+            "end": 55844106, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.428150"
+    }, 
+    "type": "DNA", 
+    "id": "45a37937-1e80-4159-ac98-bd4a3d26c0ee"
+}

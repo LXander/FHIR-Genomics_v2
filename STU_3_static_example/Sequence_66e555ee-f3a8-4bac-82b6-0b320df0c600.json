@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 61831272, 
+        "windowStart": 61831271, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "10", 
+            "coding": [
+                {
+                    "code": "10", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000280772", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs10821668 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 61831271, 
+            "referenceAllele": "T", 
+            "end": 61831272, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.630560"
+    }, 
+    "type": "DNA", 
+    "id": "66e555ee-f3a8-4bac-82b6-0b320df0c600"
+}

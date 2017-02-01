@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 51829035, 
+        "windowStart": 51829034, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "19", 
+            "coding": [
+                {
+                    "code": "19", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000270642", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs10408816 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 51829034, 
+            "referenceAllele": "G", 
+            "end": 51829035, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.838823"
+    }, 
+    "type": "DNA", 
+    "id": "886ca0dd-dabf-4742-ac5b-199d302ad0b3"
+}

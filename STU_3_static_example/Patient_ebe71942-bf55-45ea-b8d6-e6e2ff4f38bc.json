@@ -1,0 +1,19 @@
+{
+    "privacy_policy": null, 
+    "name": [
+        {
+            "text": "Kendra Carr"
+        }
+    ], 
+    "resourceType": "Patient", 
+    "text": {
+        "status": "generated", 
+        "div": "<div><p>Kendra Carr</p></div>"
+    }, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:51.831454"
+    }, 
+    "gender": "Male", 
+    "id": "ebe71942-bf55-45ea-b8d6-e6e2ff4f38bc"
+}

@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 75130094, 
+        "windowStart": 75130093, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "15", 
+            "coding": [
+                {
+                    "code": "15", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000440863", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs12898397 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 75130093, 
+            "referenceAllele": "T", 
+            "end": 75130094, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.708184"
+    }, 
+    "type": "DNA", 
+    "id": "813a8bd3-2f84-4aa5-bd2b-8ac4fc7e8df1"
+}

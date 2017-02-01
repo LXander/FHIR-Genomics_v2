@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 194353876, 
+        "windowStart": 194353875, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "3", 
+            "coding": [
+                {
+                    "code": "3", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000273580", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs1675955 is G/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 194353875, 
+            "referenceAllele": "G", 
+            "end": 194353876, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.718538"
+    }, 
+    "type": "DNA", 
+    "id": "81ccb1a6-f801-48ca-96c9-1f6ba7e3be32"
+}

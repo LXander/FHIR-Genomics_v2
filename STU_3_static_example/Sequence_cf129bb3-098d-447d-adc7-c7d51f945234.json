@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 14149855, 
+        "windowStart": 14149854, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "1", 
+            "coding": [
+                {
+                    "code": "1", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000235372", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs3820015 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 14149854, 
+            "referenceAllele": "G", 
+            "end": 14149855, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.280358"
+    }, 
+    "type": "DNA", 
+    "id": "cf129bb3-098d-447d-adc7-c7d51f945234"
+}

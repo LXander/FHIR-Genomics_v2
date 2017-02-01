@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 26109031, 
+        "windowStart": 26109030, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "17", 
+            "coding": [
+                {
+                    "code": "17", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000302153", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs3729508 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 26109030, 
+            "referenceAllele": "T", 
+            "end": 26109031, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.917658"
+    }, 
+    "type": "DNA", 
+    "id": "94acf9dd-0d8e-49b7-8142-fa51fb96f9a1"
+}

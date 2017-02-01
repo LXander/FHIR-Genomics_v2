@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 133210986, 
+        "windowStart": 133210985, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "12", 
+            "coding": [
+                {
+                    "code": "12", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000320557", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs5745005 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 133210985, 
+            "referenceAllele": "C", 
+            "end": 133210986, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.054888"
+    }, 
+    "type": "DNA", 
+    "id": "16665197-9a9a-4f78-8864-533d6bcfa060"
+}

@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 106704796, 
+        "windowStart": 106704795, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "12", 
+            "coding": [
+                {
+                    "code": "12", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000299045", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs73197513 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 106704795, 
+            "referenceAllele": "C", 
+            "end": 106704796, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.750166"
+    }, 
+    "type": "DNA", 
+    "id": "81d2e2f6-91f6-4691-9192-4fc99fa21456"
+}

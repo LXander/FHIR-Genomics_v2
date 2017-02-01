@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 11002928, 
+        "windowStart": 11002927, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "16", 
+            "coding": [
+                {
+                    "code": "16", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000381835", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs7197779 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 11002927, 
+            "referenceAllele": "A", 
+            "end": 11002928, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.451399"
+    }, 
+    "type": "DNA", 
+    "id": "d50ed838-8832-43a5-b99e-ce2477c84190"
+}

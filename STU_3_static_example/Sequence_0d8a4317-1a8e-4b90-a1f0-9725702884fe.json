@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 119915134, 
+        "windowStart": 119915132, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "2", 
+            "coding": [
+                {
+                    "code": "2", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000272520", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs11308896 is CG/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 119915132, 
+            "referenceAllele": "CG", 
+            "end": 119915134, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:51.951343"
+    }, 
+    "type": "DNA", 
+    "id": "0d8a4317-1a8e-4b90-a1f0-9725702884fe"
+}

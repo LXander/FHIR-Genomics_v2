@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 74447751, 
+        "windowStart": 74447750, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "16", 
+            "coding": [
+                {
+                    "code": "16", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000268492", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs9888901 is A/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 74447750, 
+            "referenceAllele": "A", 
+            "end": 74447751, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.113973"
+    }, 
+    "type": "DNA", 
+    "id": "b28435dd-b028-4f1a-8b31-31409950d5e6"
+}

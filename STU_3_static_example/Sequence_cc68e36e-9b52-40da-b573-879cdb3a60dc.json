@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 129663260, 
+        "windowStart": 129663259, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "7", 
+            "coding": [
+                {
+                    "code": "7", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000471022", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs11762946 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 129663259, 
+            "referenceAllele": "C", 
+            "end": 129663260, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.259768"
+    }, 
+    "type": "DNA", 
+    "id": "cc68e36e-9b52-40da-b573-879cdb3a60dc"
+}

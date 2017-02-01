@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 67281730, 
+        "windowStart": 67281729, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "9", 
+            "coding": [
+                {
+                    "code": "9", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000334576", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs9696090 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 67281729, 
+            "referenceAllele": "G", 
+            "end": 67281730, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.248703"
+    }, 
+    "type": "DNA", 
+    "id": "c949df7f-b37f-4856-991a-564633493f24"
+}

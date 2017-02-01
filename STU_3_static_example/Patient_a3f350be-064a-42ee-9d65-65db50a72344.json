@@ -1,0 +1,19 @@
+{
+    "privacy_policy": null, 
+    "name": [
+        {
+            "text": "John Trent"
+        }
+    ], 
+    "resourceType": "Patient", 
+    "text": {
+        "status": "generated", 
+        "div": "<div><p>John Trent</p></div>"
+    }, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:51.797851"
+    }, 
+    "gender": "Female", 
+    "id": "a3f350be-064a-42ee-9d65-65db50a72344"
+}

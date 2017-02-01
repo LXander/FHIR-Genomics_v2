@@ -2,8 +2,8 @@
 import re
 import os
 import json
-from load_spec import get_type_for_param
-from fhir_spec import SPECS
+from load_spec_STU3 import get_type_for_param
+from fhir_spec_test import SPECS
 
 # TODO: support parsing path wild card path
 # e.g. Extension.value[x]
@@ -100,7 +100,7 @@ def parse(datatype, data, correctible):
         search_elements = filter(lambda x: x.get('spec') is not None and x.get('spec').get('name')!='extension',
                         search_elements)
 
-    if datatype in ['observationforgenetics', 'consensus-sequence-block', 'reportforgenetics', 'orderforgenetics'
+    if datatype in ['Observation','DiagnosticReport','observationforgenetics', 'consensus-sequence-block', 'reportforgenetics', 'orderforgenetics'
                     'hlaresult', 'familymemberhistory-genetic']:
         results_1 = get_extensions(datatype, data)
         results_2 = get_complex_extensions(datatype, data)

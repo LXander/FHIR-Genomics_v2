@@ -1,0 +1,24 @@
+{
+    "code": {
+        "text": "melanoma", 
+        "coding": [
+            {
+                "code": "2092003", 
+                "display": "melanoma", 
+                "system": "http://snomed.org/sct"
+            }
+        ]
+    }, 
+    "privacy_policy": null, 
+    "patient": {
+        "reference": "Patient/f43fa218-80ce-495b-8ee0-3a264e9409e5"
+    }, 
+    "resourceType": "Condition", 
+    "verificationStatus": "confirmed", 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.846353"
+    }, 
+    "id": "d2987f90-cb1c-4e3a-801c-80dc2a6ab1e1", 
+    "subject": "Patient"
+}

@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 179021718, 
+        "windowStart": 179021717, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "5", 
+            "coding": [
+                {
+                    "code": "5", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000509797", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs28526620 is A/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 179021717, 
+            "referenceAllele": "A", 
+            "end": 179021718, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.819330"
+    }, 
+    "type": "DNA", 
+    "id": "864c5fa9-8180-4f5c-9e43-db645d4cc7c5"
+}

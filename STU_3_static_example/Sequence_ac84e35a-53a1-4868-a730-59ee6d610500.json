@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 107380397, 
+        "windowStart": 107380396, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "9", 
+            "coding": [
+                {
+                    "code": "9", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000259362", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs36091517 is T/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 107380396, 
+            "referenceAllele": "T", 
+            "end": 107380397, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.091825"
+    }, 
+    "type": "DNA", 
+    "id": "ac84e35a-53a1-4868-a730-59ee6d610500"
+}

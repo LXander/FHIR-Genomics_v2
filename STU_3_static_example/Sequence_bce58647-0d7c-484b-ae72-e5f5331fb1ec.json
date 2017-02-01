@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 118704296, 
+        "windowStart": 118704295, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "10", 
+            "coding": [
+                {
+                    "code": "10", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000260777", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs10787731 is G/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 118704295, 
+            "referenceAllele": "G", 
+            "end": 118704296, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.186705"
+    }, 
+    "type": "DNA", 
+    "id": "bce58647-0d7c-484b-ae72-e5f5331fb1ec"
+}

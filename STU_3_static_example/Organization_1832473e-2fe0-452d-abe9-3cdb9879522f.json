@@ -1,0 +1,35 @@
+{
+    "privacy_policy": null, 
+    "name": "Myriad Lab", 
+    "telecom": [
+        {
+            "use": "work", 
+            "system": "phone", 
+            "value": "+1 555 234 1234"
+        }, 
+        {
+            "use": "work", 
+            "system": "email", 
+            "value": "contact@labs.acme.org"
+        }
+    ], 
+    "text": {
+        "status": "generated", 
+        "div": "<div>\n      \n      <p> Myriad Lab   </p>\n    \n    </div>"
+    }, 
+    "resourceType": "Organization", 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:51.755117"
+    }, 
+    "identifier": [
+        {
+            "fhir_comments": [
+                "   Myriad Lab   "
+            ], 
+            "value": "SeqLab", 
+            "system": "http://www.acme.org.au/units"
+        }
+    ], 
+    "id": "1832473e-2fe0-452d-abe9-3cdb9879522f"
+}

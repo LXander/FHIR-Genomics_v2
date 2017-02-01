@@ -1,0 +1,19 @@
+{
+    "privacy_policy": null, 
+    "name": [
+        {
+            "text": "Donald Whitting"
+        }
+    ], 
+    "resourceType": "Patient", 
+    "text": {
+        "status": "generated", 
+        "div": "<div><p>Donald Whitting</p></div>"
+    }, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:51.789085"
+    }, 
+    "gender": "Male", 
+    "id": "735ffab7-0e52-44c9-acc5-18320b15cc6d"
+}

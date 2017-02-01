@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 29533211, 
+        "windowStart": 29533210, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "22", 
+            "coding": [
+                {
+                    "code": "22", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000327813", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs34898858 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 29533210, 
+            "referenceAllele": "A", 
+            "end": 29533211, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.081341"
+    }, 
+    "type": "DNA", 
+    "id": "aa64362d-8c11-4b7a-bdee-fa79854ef8c2"
+}

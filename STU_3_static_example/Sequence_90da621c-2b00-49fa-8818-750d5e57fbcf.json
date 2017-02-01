@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 56973849, 
+        "windowStart": 56973848, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "19", 
+            "coding": [
+                {
+                    "code": "19", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000292069", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs35027158 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 56973848, 
+            "referenceAllele": "T", 
+            "end": 56973849, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.881435"
+    }, 
+    "type": "DNA", 
+    "id": "90da621c-2b00-49fa-8818-750d5e57fbcf"
+}

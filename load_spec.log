@@ -1,340 +1,164 @@
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded CodeSystem's profile 
+Wed, 01 Feb 2017 12:14:35 _internal.py[line:87]: WARNING  * Debugger is active! 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ValueSet's profile 
+Wed, 01 Feb 2017 12:14:35 _internal.py[line:87]: INFO  * Debugger pin code: 183-041-643 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded DomainResource's profile 
+Wed, 01 Feb 2017 12:14:52 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:14:52] "GET / HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Parameters's profile 
+Wed, 01 Feb 2017 12:14:52 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:14:52] "GET /static/main.css HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Resource's profile 
+Wed, 01 Feb 2017 12:14:52 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:14:52] "GET /static/jquery-1.7.2.min.js HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Account's profile 
+Wed, 01 Feb 2017 12:14:55 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:14:55] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ActivityDefinition's profile 
+Wed, 01 Feb 2017 12:14:55 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:14:55] "GET /apple-touch-icon.png HTTP/1.1" 404 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded AllergyIntolerance's profile 
+Wed, 01 Feb 2017 12:14:55 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:14:55] "GET /favicon.ico HTTP/1.1" 404 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Appointment's profile 
+Wed, 01 Feb 2017 12:15:06 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:06] "POST /login HTTP/1.1" 302 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded AppointmentResponse's profile 
+Wed, 01 Feb 2017 12:15:06 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:06] "GET / HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded AuditEvent's profile 
+Wed, 01 Feb 2017 12:15:16 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:16] "GET /update_app/2a6c8196-a55b-42d5-a1a2-8948bc0265b5 HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Basic's profile 
+Wed, 01 Feb 2017 12:15:18 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:18] "GET /launch/2a6c8196-a55b-42d5-a1a2-8948bc0265b5 HTTP/1.1" 302 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Binary's profile 
+Wed, 01 Feb 2017 12:15:53 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:53] "GET /launch/2a6c8196-a55b-42d5-a1a2-8948bc0265b5 HTTP/1.1" 302 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded BodySite's profile 
+Wed, 01 Feb 2017 12:15:53 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:53] "GET /auth/authorize?scope=user%2FSequence.read+user%2FSequence.write+user%2Fobservationforgenetics.read+user%2Freportforgenetics.read+user%2FPatient.read+user%2FCondition.read+user%2FObservation.read+user%2FDiagnosticReport.read&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Frecv_redirect&response_type=code&client_id=2a6c8196-a55b-42d5-a1a2-8948bc0265b5 HTTP/1.1" 302 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Bundle's profile 
+Wed, 01 Feb 2017 12:15:53 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:53] "GET /auth/create_context?auth_req=%7B%22scope%22%3A+%22user%2FSequence.read+user%2FSequence.write+user%2Fobservationforgenetics.read+user%2Freportforgenetics.read+user%2FPatient.read+user%2FCondition.read+user%2FObservation.read+user%2FDiagnosticReport.read%22%2C+%22redirect_uri%22%3A+%22http%3A%2F%2Flocalhost%3A8000%2Frecv_redirect%22%2C+%22response_type%22%3A+%22code%22%2C+%22client_id%22%3A+%222a6c8196-a55b-42d5-a1a2-8948bc0265b5%22%7D HTTP/1.1" 302 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded CarePlan's profile 
+Wed, 01 Feb 2017 12:15:53 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:53] "GET /auth/authorize?scope=user%2FSequence.read+user%2FSequence.write+user%2Fobservationforgenetics.read+user%2Freportforgenetics.read+user%2FPatient.read+user%2FCondition.read+user%2FObservation.read+user%2FDiagnosticReport.read+launch%3A9&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Frecv_redirect&response_type=code&client_id=2a6c8196-a55b-42d5-a1a2-8948bc0265b5 HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded CareTeam's profile 
+Wed, 01 Feb 2017 12:15:56 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:56] "POST /auth/authorize?scope=user%2FSequence.read+user%2FSequence.write+user%2Fobservationforgenetics.read+user%2Freportforgenetics.read+user%2FPatient.read+user%2FCondition.read+user%2FObservation.read+user%2FDiagnosticReport.read+launch%3A9&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Frecv_redirect&response_type=code&client_id=2a6c8196-a55b-42d5-a1a2-8948bc0265b5 HTTP/1.1" 302 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Claim's profile 
+Wed, 01 Feb 2017 12:15:56 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:56] "POST /auth/token HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ClaimResponse's profile 
+Wed, 01 Feb 2017 12:15:56 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:56] "GET /api/Sequence?_count=1 HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ClinicalImpression's profile 
+Wed, 01 Feb 2017 12:15:56 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:56] "GET /api/Sequence?_count=1 HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Communication's profile 
+Wed, 01 Feb 2017 12:15:56 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:56] "GET /api/Patient?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded CommunicationRequest's profile 
+Wed, 01 Feb 2017 12:15:59 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:59] "GET /api/Patient?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded CompartmentDefinition's profile 
+Wed, 01 Feb 2017 12:15:59 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:59] "GET /api/Patient/0eff8c54-2ec6-4ac5-9e8c-cff64621f4f1?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Composition's profile 
+Wed, 01 Feb 2017 12:15:59 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:59] "GET /api/observationforgenetics?subject:Patient=0eff8c54-2ec6-4ac5-9e8c-cff64621f4f1&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ConceptMap's profile 
+Wed, 01 Feb 2017 12:15:59 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:59] "GET /api/DiagnosticReport?subject:Patient=0eff8c54-2ec6-4ac5-9e8c-cff64621f4f1&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Condition's profile 
+Wed, 01 Feb 2017 12:15:59 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:15:59] "GET /api/Condition/d16d5fc9-d71a-4611-8000-3bb918445070?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Conformance's profile 
+Wed, 01 Feb 2017 12:16:08 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:16:08] "GET /api/Patient?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Consent's profile 
+Wed, 01 Feb 2017 12:16:08 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:16:08] "GET /api/Patient/58d24cb6-9c85-4431-85c8-06ac36fcc25d?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Contract's profile 
+Wed, 01 Feb 2017 12:16:08 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:16:08] "GET /api/observationforgenetics?subject:Patient=58d24cb6-9c85-4431-85c8-06ac36fcc25d&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Coverage's profile 
+Wed, 01 Feb 2017 12:16:08 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:16:08] "GET /api/DiagnosticReport?subject:Patient=58d24cb6-9c85-4431-85c8-06ac36fcc25d&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded DataElement's profile 
+Wed, 01 Feb 2017 12:16:08 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:16:08] "GET /api/Condition/50c59dac-4a96-4ce2-84b2-e09797d9770b?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded DecisionSupportServiceModule's profile 
+Wed, 01 Feb 2017 12:17:45 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:17:45] "GET /api/Patient?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded DetectedIssue's profile 
+Wed, 01 Feb 2017 12:17:45 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:17:45] "GET /api/Patient/bccb1550-7ea7-4528-8f54-f5f5f5467d1f?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Device's profile 
+Wed, 01 Feb 2017 12:17:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:17:46] "GET /api/Observation?subject:Patient=bccb1550-7ea7-4528-8f54-f5f5f5467d1f&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded DeviceComponent's profile 
+Wed, 01 Feb 2017 12:17:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:17:46] "GET /api/DiagnosticReport?subject:Patient=bccb1550-7ea7-4528-8f54-f5f5f5467d1f&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded DeviceMetric's profile 
+Wed, 01 Feb 2017 12:17:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:17:46] "GET /api/Condition/a02121bb-a17c-42b5-853f-6dd8ba69f29c?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded DeviceUseRequest's profile 
+Wed, 01 Feb 2017 12:17:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:17:46] "GET /api/Sequence/28605aaf-a564-4bf6-91da-bbf1666e5014?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded DeviceUseStatement's profile 
+Wed, 01 Feb 2017 12:17:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:17:46] "GET /api/observationforgenetics?Sequence.variationID=rs6690204&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded DiagnosticReport's profile 
+Wed, 01 Feb 2017 12:17:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:17:46] "GET /api/Sequence/cf129bb3-098d-447d-adc7-c7d51f945234?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded DiagnosticRequest's profile 
+Wed, 01 Feb 2017 12:17:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:17:46] "GET /api/observationforgenetics?Sequence.variationID=rs6690204&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded DocumentManifest's profile 
+Wed, 01 Feb 2017 12:17:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:17:46] "GET /api/Sequence/3fa3fa68-2329-499f-a461-05dbf4e97876?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded DocumentReference's profile 
+Wed, 01 Feb 2017 12:17:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:17:46] "GET /api/observationforgenetics?Sequence.variationID=rs6690204&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded EligibilityRequest's profile 
+Wed, 01 Feb 2017 12:18:39 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:39] "GET /api/Patient?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded EligibilityResponse's profile 
+Wed, 01 Feb 2017 12:18:39 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:39] "GET /api/Patient/a3f350be-064a-42ee-9d65-65db50a72344?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Encounter's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/Observation?subject:Patient=a3f350be-064a-42ee-9d65-65db50a72344&_profile=Observation-genetic&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Endpoint's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/DiagnosticReport?subject:Patient=a3f350be-064a-42ee-9d65-65db50a72344&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded EnrollmentRequest's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/Condition/1f049861-5dec-4c35-9d1d-71bbce2da6fa?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded EnrollmentResponse's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/Sequence/406178b9-ffe5-41e2-bcae-e9c121934f5e?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded EpisodeOfCare's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/observationforgenetics?Sequence.variationID=rs10772818&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ExpansionProfile's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/Sequence/1a1ef28b-262f-4c3e-a9a1-67b5bc81c803?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ExplanationOfBenefit's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/observationforgenetics?Sequence.variationID=rs10772818&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded FamilyMemberHistory's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/Sequence/e2ba6f13-29a8-452c-8393-2f584dd37b77?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Flag's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/observationforgenetics?Sequence.variationID=rs10772818&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Goal's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/Sequence/95734963-3218-470e-a9a0-fe1a081ac615?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Group's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/observationforgenetics?Sequence.variationID=rs10772818&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded GuidanceResponse's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/Sequence/387bfba4-7d2b-4424-9c24-ee6d9728af41?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded HealthcareService's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/observationforgenetics?Sequence.variationID=rs10772818&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ImagingManifest's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/Sequence/a615db55-dc64-472d-a13a-3f9c6127da2b?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ImagingStudy's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/observationforgenetics?Sequence.variationID=rs10772818&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Immunization's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/Sequence/b4c0644f-e0f1-4c16-811f-4a998709150a?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ImmunizationRecommendation's profile 
+Wed, 01 Feb 2017 12:18:40 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:18:40] "GET /api/observationforgenetics?Sequence.variationID=rs10772818&_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ImplementationGuide's profile 
+Wed, 01 Feb 2017 12:20:34 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:20:34] "GET /api/Patient?gender=Female HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Library's profile 
+Wed, 01 Feb 2017 12:20:49 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:20:49] "GET //api/Patient?gender=Female HTTP/1.1" 404 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Linkage's profile 
+Wed, 01 Feb 2017 12:20:54 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:20:54] "GET /api/Patient?gender=Female HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded List's profile 
+Wed, 01 Feb 2017 12:20:54 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:20:54] "GET /api/Patient?gender=Female HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Location's profile 
+Wed, 01 Feb 2017 12:21:59 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:21:59] "GET /api/Patient HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Measure's profile 
+Wed, 01 Feb 2017 12:22:14 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:22:14] "GET /api/Patient/fffbe6b2-1544-42fa-b5eb-a9c02965ad90 HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded MeasureReport's profile 
+Wed, 01 Feb 2017 12:25:17 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:17] "GET / HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Media's profile 
+Wed, 01 Feb 2017 12:25:43 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:43] "GET /update_app/2a6c8196-a55b-42d5-a1a2-8948bc0265b5 HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Medication's profile 
+Wed, 01 Feb 2017 12:25:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:46] "GET /launch/2a6c8196-a55b-42d5-a1a2-8948bc0265b5 HTTP/1.1" 302 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded MedicationAdministration's profile 
+Wed, 01 Feb 2017 12:25:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:46] "GET /api/Sequence?_count=1 HTTP/1.1" 403 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded MedicationDispense's profile 
+Wed, 01 Feb 2017 12:25:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:46] "GET /auth/authorize?scope=user%2FSequence.read+user%2FSequence.write+user%2Fobservationforgenetics.read+user%2Freportforgenetics.read+user%2FPatient.read+user%2FCondition.read+user%2FObservation.read+user%2FDiagnosticReport.read&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Frecv_redirect&response_type=code&client_id=2a6c8196-a55b-42d5-a1a2-8948bc0265b5 HTTP/1.1" 302 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded MedicationOrder's profile 
+Wed, 01 Feb 2017 12:25:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:46] "GET /auth/create_context?auth_req=%7B%22scope%22%3A+%22user%2FSequence.read+user%2FSequence.write+user%2Fobservationforgenetics.read+user%2Freportforgenetics.read+user%2FPatient.read+user%2FCondition.read+user%2FObservation.read+user%2FDiagnosticReport.read%22%2C+%22redirect_uri%22%3A+%22http%3A%2F%2Flocalhost%3A8000%2Frecv_redirect%22%2C+%22response_type%22%3A+%22code%22%2C+%22client_id%22%3A+%222a6c8196-a55b-42d5-a1a2-8948bc0265b5%22%7D HTTP/1.1" 302 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded MedicationStatement's profile 
+Wed, 01 Feb 2017 12:25:46 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:46] "GET /auth/authorize?scope=user%2FSequence.read+user%2FSequence.write+user%2Fobservationforgenetics.read+user%2Freportforgenetics.read+user%2FPatient.read+user%2FCondition.read+user%2FObservation.read+user%2FDiagnosticReport.read+launch%3A11&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Frecv_redirect&response_type=code&client_id=2a6c8196-a55b-42d5-a1a2-8948bc0265b5 HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded MessageHeader's profile 
+Wed, 01 Feb 2017 12:25:48 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:48] "POST /auth/authorize?scope=user%2FSequence.read+user%2FSequence.write+user%2Fobservationforgenetics.read+user%2Freportforgenetics.read+user%2FPatient.read+user%2FCondition.read+user%2FObservation.read+user%2FDiagnosticReport.read+launch%3A11&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Frecv_redirect&response_type=code&client_id=2a6c8196-a55b-42d5-a1a2-8948bc0265b5 HTTP/1.1" 302 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded NamingSystem's profile 
+Wed, 01 Feb 2017 12:25:48 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:48] "POST /auth/token HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded NutritionRequest's profile 
+Wed, 01 Feb 2017 12:25:48 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:48] "GET /api/Sequence?_count=1 HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Observation's profile 
+Wed, 01 Feb 2017 12:25:48 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:48] "GET /api/Sequence?_count=1 HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded OperationDefinition's profile 
+Wed, 01 Feb 2017 12:25:48 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:48] "GET /api/Patient?_format=json HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded OperationOutcome's profile 
+Wed, 01 Feb 2017 12:25:54 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:54] "GET / HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Organization's profile 
+Wed, 01 Feb 2017 12:25:58 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:25:58] "GET /api/Sequence HTTP/1.1" 200 - 
 
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Patient's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded PaymentNotice's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded PaymentReconciliation's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Person's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded PlanDefinition's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Practitioner's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded PractitionerRole's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Procedure's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ProcedureRequest's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ProcessRequest's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ProcessResponse's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Provenance's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Questionnaire's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded QuestionnaireResponse's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded ReferralRequest's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded RelatedPerson's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded RiskAssessment's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Schedule's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded SearchParameter's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Sequence's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Slot's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Specimen's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded StructureDefinition's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded StructureMap's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Subscription's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Substance's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded SupplyDelivery's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded SupplyRequest's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded Task's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded TestScript's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded VisionPrescription's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsTranscriptReferenceSequenceId.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: TranscriptReferenceSequenceId 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsProteinReferenceSequenceId.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: ProteinReferenceSequenceId 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsDNASequenceVariant.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: DNASequenceVariant 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsDNAVariantId.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: DNAVariantId 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsDNASequenceVariantType.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: DNASequenceVariantType 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsAminoAcidChange.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: AminoAcidChange 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsAminoAcidChangeType.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: AminoAcidChangeType 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsGene.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: Gene 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsDNARegionName.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: DNARegionName 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsAlleleName.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: AlleleName 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsAllelicState.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: AllelicState 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsAllelicFrequency.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: AllelicFrequency 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsCopyNumberEvent.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: CopyNumberEvent 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsGenomicSourceClass.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: GenomicSourceClass 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsPhaseSet.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: PhaseSet 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsSequence.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: Sequence 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find observation-geneticsInterpretation.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: Interpretation 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded observationforgenetics's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find DiagnosticReport-geneticsAssessedCondition.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: AssessedCondition 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find DiagnosticReport-geneticsFamilyMemberHistory.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: FamilyMemberHistory 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find DiagnosticReport-geneticsAnalysis.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:165]: WARNING Unexpected Error at adding extension Analysis 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded reportforgenetics's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find diagnosticrequest-geneticsItem.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:165]: WARNING Unexpected Error at adding extension Item 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded orderforgenetics's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find hla-genotyping-resultsAlleleDatabase.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: AlleleDatabase 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find hla-genotyping-resultsGlstring.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:165]: WARNING Unexpected Error at adding extension Glstring 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find hla-genotyping-resultsHaploid.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:165]: WARNING Unexpected Error at adding extension Haploid 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:61]: INFO Cannot find hla-genotyping-resultsMethod.json, trying a case-lower one 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: Method 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded hlaresult's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:163]: INFO add a complex extension: http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:144]: INFO add extension: Observation 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:314]: INFO Loaded familymemberhistory-genetic's profile 
-
-Fri, 02 Sep 2016 16:55:20 load_spec_STU3.py[line:353]: INFO Finished Loading 
+Wed, 01 Feb 2017 12:38:58 _internal.py[line:87]: INFO 127.0.0.1 - - [01/Feb/2017 12:38:58] "GET /api/Observation?_profile=Observation-genomics HTTP/1.1" 200 - 
 

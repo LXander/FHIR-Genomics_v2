@@ -1,0 +1,19 @@
+{
+    "privacy_policy": null, 
+    "name": [
+        {
+            "text": "Michael Ripple"
+        }
+    ], 
+    "resourceType": "Patient", 
+    "text": {
+        "status": "generated", 
+        "div": "<div><p>Michael Ripple</p></div>"
+    }, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:51.842608"
+    }, 
+    "gender": "Male", 
+    "id": "f111eccf-ab07-4f73-ae3a-60c67a107fab"
+}

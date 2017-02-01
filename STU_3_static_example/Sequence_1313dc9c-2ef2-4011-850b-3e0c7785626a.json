@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 3701391, 
+        "windowStart": 3701390, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "12", 
+            "coding": [
+                {
+                    "code": "12", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000382622", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs3741935 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 3701390, 
+            "referenceAllele": "C", 
+            "end": 3701391, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.020472"
+    }, 
+    "type": "DNA", 
+    "id": "1313dc9c-2ef2-4011-850b-3e0c7785626a"
+}

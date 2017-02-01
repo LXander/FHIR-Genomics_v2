@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 25360187, 
+        "windowStart": 25360186, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "2", 
+            "coding": [
+                {
+                    "code": "2", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000264719", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs112767688 is C/T</div>"
+    }, 
+    "variant": [
+        {
+            "start": 25360186, 
+            "referenceAllele": "C", 
+            "end": 25360187, 
+            "observedAllele": "T"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.642204"
+    }, 
+    "type": "DNA", 
+    "id": "f297d2c6-6d10-4371-bbad-a2945153b94e"
+}

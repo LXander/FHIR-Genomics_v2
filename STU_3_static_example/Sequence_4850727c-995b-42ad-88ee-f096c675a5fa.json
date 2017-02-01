@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 78335611, 
+        "windowStart": 78335610, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "17", 
+            "coding": [
+                {
+                    "code": "17", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000336301", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs61741791 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 78335610, 
+            "referenceAllele": "G", 
+            "end": 78335611, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.448767"
+    }, 
+    "type": "DNA", 
+    "id": "4850727c-995b-42ad-88ee-f096c675a5fa"
+}

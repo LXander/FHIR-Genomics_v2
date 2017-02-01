@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 47276640, 
+        "windowStart": 47276639, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "20", 
+            "coding": [
+                {
+                    "code": "20", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000371941", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs11086257 is A/AT</div>"
+    }, 
+    "variant": [
+        {
+            "start": 47276639, 
+            "referenceAllele": "A", 
+            "end": 47276640, 
+            "observedAllele": "AT"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.657745"
+    }, 
+    "type": "DNA", 
+    "id": "f49558fb-0efd-418c-a237-8b09a96d0138"
+}

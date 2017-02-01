@@ -116,7 +116,11 @@ class Resource(db.Model, SimpleInsert):
         self.visible = True
         self.owner_id = owner_id
         data['id'] = self.resource_id
-        data['meta'] = {'versionID': self.version, 'lastUpdated': self.update_time.isoformat()}
+        # save profile information in meta data
+        if 'meta' in data.keys() and 'profile'  in data['meta'].keys():
+            data['meta'] = {'profile':data['meta']['profile'],'versionID': self.version, 'lastUpdated': self.update_time.isoformat()}
+        else:
+            data['meta'] = {'versionID': self.version, 'lastUpdated': self.update_time.isoformat()}
         data['privacy_policy'] = policy
         self.data = json.dumps(data, separators=(',', ':'))
         self.privacy_policy = policy

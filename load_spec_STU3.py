@@ -265,10 +265,12 @@ def load_spec(spec_dir):
 
     # load profiles ( Special Profile that might not shown in main file')
     # Need Improvement
-    for filename in ['observationforgenetics.profile.json',
-                     #'consensus-sequence-block.profile.json',
-                     'reportforgenetics.profile.json', 'orderforgenetics.profile.json',
-                     'hlaresult.profile.json', 'familymemberhistory-genetic.profile.json']:
+    for filename in ['observation-genetics.profile.json',
+                     # 'consensus-sequence-block.profile.json',
+                     'diagnosticreport-genetics.profile.json',
+                     'diagnosticrequest-genetics.profile.json',
+                     'hlaresult.profile.json',
+                     'familymemberhistory-genetic.profile.json']:
         filepath = os.path.join(spec_dir, filename)
         with io.open(filepath, encoding='utf-8') as handle:
                 parsed = json.load(handle)

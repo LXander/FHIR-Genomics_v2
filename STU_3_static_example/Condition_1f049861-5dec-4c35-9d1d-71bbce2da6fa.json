@@ -1,0 +1,24 @@
+{
+    "code": {
+        "text": "Diabetes mellitus", 
+        "coding": [
+            {
+                "code": "73211009", 
+                "display": "Diabetes mellitus", 
+                "system": "http://snomed.org/sct"
+            }
+        ]
+    }, 
+    "privacy_policy": null, 
+    "patient": {
+        "reference": "Patient/a3f350be-064a-42ee-9d65-65db50a72344"
+    }, 
+    "resourceType": "Condition", 
+    "verificationStatus": "confirmed", 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.710624"
+    }, 
+    "id": "1f049861-5dec-4c35-9d1d-71bbce2da6fa", 
+    "subject": "Patient"
+}

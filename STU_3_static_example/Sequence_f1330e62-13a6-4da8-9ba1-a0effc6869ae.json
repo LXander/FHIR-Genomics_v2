@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 241929543, 
+        "windowStart": 241929542, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "1", 
+            "coding": [
+                {
+                    "code": "1", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000414635", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs12095445 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 241929542, 
+            "referenceAllele": "G", 
+            "end": 241929543, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.568211"
+    }, 
+    "type": "DNA", 
+    "id": "f1330e62-13a6-4da8-9ba1-a0effc6869ae"
+}

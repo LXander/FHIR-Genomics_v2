@@ -1,0 +1,24 @@
+{
+    "code": {
+        "text": "Lactose intolerance", 
+        "coding": [
+            {
+                "code": "267425008", 
+                "display": "Lactose intolerance", 
+                "system": "http://snomed.org/sct"
+            }
+        ]
+    }, 
+    "privacy_policy": null, 
+    "patient": {
+        "reference": "Patient/0eff8c54-2ec6-4ac5-9e8c-cff64621f4f1"
+    }, 
+    "resourceType": "Condition", 
+    "verificationStatus": "confirmed", 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.830142"
+    }, 
+    "id": "d16d5fc9-d71a-4611-8000-3bb918445070", 
+    "subject": "Patient"
+}

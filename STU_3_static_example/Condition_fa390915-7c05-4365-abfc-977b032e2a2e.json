@@ -1,0 +1,24 @@
+{
+    "code": {
+        "text": "Anemia", 
+        "coding": [
+            {
+                "code": "271737000", 
+                "display": "Anemia", 
+                "system": "http://snomed.org/sct"
+            }
+        ]
+    }, 
+    "privacy_policy": null, 
+    "patient": {
+        "reference": "Patient/ebe71942-bf55-45ea-b8d6-e6e2ff4f38bc"
+    }, 
+    "resourceType": "Condition", 
+    "verificationStatus": "confirmed", 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.865071"
+    }, 
+    "id": "fa390915-7c05-4365-abfc-977b032e2a2e", 
+    "subject": "Patient"
+}

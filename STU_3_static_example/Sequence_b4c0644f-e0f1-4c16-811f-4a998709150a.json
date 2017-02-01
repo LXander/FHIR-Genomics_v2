@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 15073665, 
+        "windowStart": 15073664, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "12", 
+            "coding": [
+                {
+                    "code": "12", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000266397", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs10772818 is T/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 15073664, 
+            "referenceAllele": "T", 
+            "end": 15073665, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.128431"
+    }, 
+    "type": "DNA", 
+    "id": "b4c0644f-e0f1-4c16-811f-4a998709150a"
+}

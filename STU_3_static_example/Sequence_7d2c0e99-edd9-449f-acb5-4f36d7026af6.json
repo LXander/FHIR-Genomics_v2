@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 25314539, 
+        "windowStart": 25314538, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "10", 
+            "coding": [
+                {
+                    "code": "10", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000376356", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs12249889 is A/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 25314538, 
+            "referenceAllele": "A", 
+            "end": 25314539, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.683016"
+    }, 
+    "type": "DNA", 
+    "id": "7d2c0e99-edd9-449f-acb5-4f36d7026af6"
+}

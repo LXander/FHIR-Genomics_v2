@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 95459699, 
+        "windowStart": 95459698, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "10", 
+            "coding": [
+                {
+                    "code": "10", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000359204", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs2275441 is G/C</div>"
+    }, 
+    "variant": [
+        {
+            "start": 95459698, 
+            "referenceAllele": "G", 
+            "end": 95459699, 
+            "observedAllele": "C"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:52.202617"
+    }, 
+    "type": "DNA", 
+    "id": "265acf16-2989-4915-a045-6625c2f6bdc9"
+}

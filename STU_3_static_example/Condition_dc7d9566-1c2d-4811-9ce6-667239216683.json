@@ -1,0 +1,24 @@
+{
+    "code": {
+        "text": "Colon Cancer", 
+        "coding": [
+            {
+                "code": "363406005", 
+                "display": "Malignnant tumor of colon", 
+                "system": "http://snomed.org/sct"
+            }
+        ]
+    }, 
+    "privacy_policy": null, 
+    "patient": {
+        "reference": "Patient/b111c942-489c-4640-991e-bea6b2e6834a"
+    }, 
+    "resourceType": "Condition", 
+    "verificationStatus": "confirmed", 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.857523"
+    }, 
+    "id": "dc7d9566-1c2d-4811-9ce6-667239216683", 
+    "subject": "Patient"
+}

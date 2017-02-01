@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 186330701, 
+        "windowStart": 186330700, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "1", 
+            "coding": [
+                {
+                    "code": "1", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000367472", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs36117514 is A/AG</div>"
+    }, 
+    "variant": [
+        {
+            "start": 186330700, 
+            "referenceAllele": "A", 
+            "end": 186330701, 
+            "observedAllele": "AG"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.691115"
+    }, 
+    "type": "DNA", 
+    "id": "f98738c0-7366-4180-afd4-a14769370d96"
+}

@@ -1,0 +1,35 @@
+{
+    "status": "final", 
+    "code": {
+        "text": "Gene mutation analysis"
+    }, 
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/diagnosticreport-geneticsAssessedCondition", 
+            "valueReference": {
+                "reference": "Condition/50c59dac-4a96-4ce2-84b2-e09797d9770b"
+            }
+        }
+    ], 
+    "resourceType": "DiagnosticReport", 
+    "issued": "2013-11-20T9:58:00+01:00", 
+    "privacy_policy": null, 
+    "performer": [
+        {
+            "reference": "Practitioner/example"
+        }
+    ], 
+    "meta": {
+        "profile": [
+            "DiagnosticReport-genetics"
+        ], 
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:55.391507"
+    }, 
+    "result": [], 
+    "effectivedateTime": "2014-7-5T13:30:00+01:00", 
+    "id": "d646bd98-0739-46e4-8632-bb927f1cc93d", 
+    "subject": {
+        "reference": "Patient/58d24cb6-9c85-4431-85c8-06ac36fcc25d"
+    }
+}

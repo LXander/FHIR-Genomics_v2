@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 125397561, 
+        "windowStart": 125397560, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "6", 
+            "coding": [
+                {
+                    "code": "6", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000275184", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs7754642 is A/G</div>"
+    }, 
+    "variant": [
+        {
+            "start": 125397560, 
+            "referenceAllele": "A", 
+            "end": 125397561, 
+            "observedAllele": "G"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.317834"
+    }, 
+    "type": "DNA", 
+    "id": "d1488525-65d1-4e2d-be77-10be11a8e497"
+}

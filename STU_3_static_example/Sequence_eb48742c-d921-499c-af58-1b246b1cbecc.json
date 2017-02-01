@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 42743007, 
+        "windowStart": 42743006, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "13", 
+            "coding": [
+                {
+                    "code": "13", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000261491", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs34761363 is A/AT</div>"
+    }, 
+    "variant": [
+        {
+            "start": 42743006, 
+            "referenceAllele": "A", 
+            "end": 42743007, 
+            "observedAllele": "AT"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.522824"
+    }, 
+    "type": "DNA", 
+    "id": "eb48742c-d921-499c-af58-1b246b1cbecc"
+}

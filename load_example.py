@@ -18,8 +18,8 @@ PRE_EXTENSION_OBS_URL = 'http://hl7.org/fhir/StructureDefinition/observation-gen
 PRE_EXTENSION_REPORT_URL = 'http://hl7.org/fhir/StructureDefinition/diagnosticreport-genetics'
 
 STATIC_EXAMPLE= True
-STATIC_DIR = 'static_example/'
-WRITE_TO_FILE = False
+STATIC_DIR = 'STU_3_static_example/'
+WRITE_TO_FILE =True
 
 class MockG(object):
     def __init__(self):
@@ -33,11 +33,17 @@ def save_resource(resource_type, resource_data):
     save a resource to database and index its elements by search params
     '''
     if 'meta' in resource_data:
-        del resource_data['meta']
-        del resource_data['privacy_policy']
+        print resource_data['meta']
+        #del resource_data['meta']
+        try:
+            del resource_data['privacy_policy']
+        except:
+            pass
 
     valid, search_elements = parse_resource(resource_type, resource_data)
     assert valid
+
+
 
 
     if 'id' in resource_data:
@@ -50,8 +56,9 @@ def save_resource(resource_type, resource_data):
     if 'id' not in resource_data:
         resource_data['id']=output['id']
 
+    #print resource_data
     if WRITE_TO_FILE:
-        with open('static_example/{}_{}.json'.format(resource_type, resource_data['id']), 'w') as spec_target:
+        with open('STU_3_static_example/{}_{}.json'.format(resource_type, resource_data['id']), 'w') as spec_target:
             spec_target.write(json.dumps(resource_data, indent=4))
     return resource
 
@@ -94,7 +101,10 @@ def rand_observations(patientId, index):
         text = 'Genetic analysis master panel'
 
     observation = {
-        'resourceType': 'observationforgenetics',
+        'resourceType': 'Observation',
+        'meta':{ "profile": [
+            "Observation-genetics"
+          ]},
 
         'category': [{'text': 'Laboratory',
                      'coding': [{
@@ -185,7 +195,7 @@ def rand_observations(patientId, index):
 
     observation['extension'] = extension
     print 'Created Observation-genetics instance'
-    return save_resource('observationforgenetics', observation)
+    return save_resource('Observation', observation)
 
 
 def load_vcf_example(vcf_file):
@@ -296,7 +306,8 @@ def create_diagnosticreport(patient_id):
         }
     #Extension as reportforgenetics
     data_STU3 = {
-        'resourceType': 'reportforgenetics',
+        'meta':{'profile':['DiagnosticReport-genetics']},
+        'resourceType': 'DiagnosticReport',
         'extension': extension,
         'status': 'final',
         'code': {'text': 'Gene mutation analysis'},
@@ -307,7 +318,7 @@ def create_diagnosticreport(patient_id):
         'result': results
     }
     #print json.dumps(data_STU3,indent=4)
-    return save_resource('reportforgenetics', data_STU3)
+    return save_resource('DiagnosticReport', data_STU3)
 
 
 def rand_practitioner(patient_id):
@@ -415,7 +426,7 @@ def load_example_from_files(filedir):
 
     filenames = os.listdir(filedir)
 
-    Order = ['Organization','Patient','Sequence','Condition','Practitioner','observationforgenetics','reportforgenetics']
+    Order = ['Organization','Patient','Sequence','Condition','Practitioner','Observation','DiagnosticReport']
     for k in range(len(Order)):
         for filename in filenames:
             if filename.split('.')[-1]!='json':

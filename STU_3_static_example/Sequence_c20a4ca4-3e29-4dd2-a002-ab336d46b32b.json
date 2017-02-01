@@ -1,0 +1,45 @@
+{
+    "referenceSeq": {
+        "windowEnd": 5187777, 
+        "windowStart": 5187776, 
+        "genomeBuild": "GRCh37", 
+        "chromosome": {
+            "text": "5", 
+            "coding": [
+                {
+                    "code": "5", 
+                    "system": "http://hl7.org/fhir/ValueSet/chromosome-human"
+                }
+            ]
+        }, 
+        "referenceSeqId": {
+            "coding": [
+                {
+                    "code": "ENST00000274181", 
+                    "system": "http://www.ensembl.org"
+                }
+            ]
+        }
+    }, 
+    "privacy_policy": null, 
+    "resourceType": "Sequence", 
+    "text": {
+        "status": "generated", 
+        "div": "<div>Genotype of rs1863972 is G/A</div>"
+    }, 
+    "variant": [
+        {
+            "start": 5187776, 
+            "referenceAllele": "G", 
+            "end": 5187777, 
+            "observedAllele": "A"
+        }
+    ], 
+    "coordinateSystem": 0, 
+    "meta": {
+        "versionID": 1, 
+        "lastUpdated": "2017-02-01T11:36:53.215850"
+    }, 
+    "type": "DNA", 
+    "id": "c20a4ca4-3e29-4dd2-a002-ab336d46b32b"
+}
