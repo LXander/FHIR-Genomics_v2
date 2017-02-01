@@ -3,7 +3,7 @@ import re
 import os
 import json
 from load_spec_STU3 import get_type_for_param
-from fhir_spec_test import SPECS
+from fhir_spec import SPECS
 
 # TODO: support parsing path wild card path
 # e.g. Extension.value[x]
